@@ -2,15 +2,13 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Beagley Industries</title>
+  <title></title>
   <link rel="stylesheet" href="../stylesheet.css" type="text/css">
 </head>
 <body>
-  <h1>Beagley Industries</h1>
-   <p>Metalwork. Systems. Tools.</p>
-   <p>Site under construction.</p>
+  <h1></h1>
+   <p></p>
    <img src="../images/mia.jpg" alt="Mia">
-   <p> My dog's keeping an eye on it for me.</p>
 </body>                        
 <footer>
   <p>© 2026  C. Small. All rights reserved.</p>
