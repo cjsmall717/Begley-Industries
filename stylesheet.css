@@ -1,3 +1,11 @@
+body {
+  background: #000;
+  color: #fdf5e6; /* OldLace */
+  font-family: monospace;
+  margin: 0;
+  padding: 2rem;
+}
+
 img {
   opacity: 0.95;
   transition: opacity 0.2s ease;
@@ -5,7 +13,6 @@ img {
 img:hover {
   opacity: 1;
 }
-
 .piece {
   margin-bottom: 80px;
 }
@@ -14,5 +21,13 @@ hr {
   border: none;
   border-top: 1px solid #222;
   margin: 60px 0;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+p {
+  opacity: 0.8;
 }
 
