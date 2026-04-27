@@ -26,8 +26,28 @@ hr {
 h1 {
   font-size: 2rem;
   margin-bottom: 0.5rem;
+  text-align: center;
 }
 p {
   opacity: 0.8;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px; /* Required for vertical centering */
+}
+
+#.logo {
+#  display: grid;
+#  justify-content: center;
+#  place-items: center;
+#  height: 100px;
+#}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  height: 100px;
+}
