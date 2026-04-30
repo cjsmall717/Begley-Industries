@@ -9,8 +9,8 @@
   <h1></h1>
    <p></p>
    <img src="../images/mia.jpg" alt="Mia">
+  <footer>
+    <p>&copy;2026  C. Small. All rights reserved.</p>
+  </footer>
 </body>                        
-<footer>
-  <p>© 2026  C. Small. All rights reserved.</p>
-</footer>
 </html>
