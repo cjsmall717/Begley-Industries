@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hybrid Distributed Systems Reference Architecture: Virtualised Hadoop Cluster with Identity and Monitoring</title>
+  <link rel="stylesheet" href="../CSS/stylesheet.css" type="text/css">
+</head>
+<body>
+  <h1>Hybrid Virtualised Hadoop Cluster with Identity and Monitoring Integration</h1>
+  <p>
+    Designed and implemented a hybrid distributed system combining virtualised compute with physical 
+    identity and messaging services. The system integrates authentication, orchestration, monitoring, 
+    and message-driven components.
+  </p>
+  <h2>Overview</h2>
+  <p>
+    <ul>
+      <li>Hybrid deployment incorporating Ansible Orchestration and </li>
+      <li>Message-driven architecture using RabbitMQ</li>
+      <li>Authenticated services using Kerberos</li>
+      <li>Real-time monitoring via Icinga2 backed with PostgreSQL</li>
+      <li>Lightweight containerised deployment (Singularity) of Notification component</li>
+      <li>Integration of heterogeneous components (Java, Python, Shell, messaging, monitoring)</li>
+    </ul>
+  </p>
+  <h2>Architecture</h2>
+  <p>Layered description...</p>
+
+  <h2>Implementation</h2>
+  <p>
+    The reference architecture was realised as a hybrid system comprising virtualised compute nodes
+    hosted on a dedicated VM platform, with supporting physical infrastructure providing identity
+    and control services.
+  </p>
+
+  <p>
+    Compute nodes were organised into functional groups supporting distributed storage, messaging,
+    and processing workloads. Core services were distributed across these nodes to allow evaluation
+    of coordination, failover behaviour, and system interaction under load.
+  </p>
+
+  <p>
+    A dedicated monitoring node running Icinga2 provided system-wide visibility. Identity and access
+    services were hosted on separate physical systems to maintain a clear trust boundary between
+    authentication and compute layers.
+  </p>
+
+  <p>
+    Access to the environment was primarily via SSH and VNC, with a lightweight client system used
+    for interaction and control.
+  </p>
+
+  <p>Cluster description...</p>
+  <h2>Provisioning Model</h2>
+
+  <p>
+    Virtual machines were provisioned from a set of base "gold" images, representing known-good
+    system states. These images were extended using layered snapshots to introduce role-specific
+    components (e.g. storage, messaging, compute).
+  </p>
+
+  <p>
+    Instances were treated as disposable. New nodes were generated from snapshots rather than
+    modified in place, allowing rapid iteration and rollback without impacting the integrity of
+    the base images.
+  </p>
+
+  <p>
+    This approach allowed efficient use of limited hardware by oversubscribing resources while
+    maintaining a consistent and reproducible deployment model.
+  </p>
+
+  <p>
+    The model prioritised repeatability and speed of deployment over strict resource isolation.
+  </p>
+
+  <h2>Key Design Elements</h2>
+  <p>2–3 focused points...</p>
+
+  <h2>Observability</h2>
+  <p>Icinga2 focus...</p>
+
+  <h2>Outcome</h2>
+
+  <footer>
+    <p>&copy;2026  C. Small. All rights reserved.</p>
+  </footer>
+</body>                        
+</html>
