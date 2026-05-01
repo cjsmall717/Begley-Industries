@@ -14,37 +14,33 @@
   </p>
   <h2>Overview</h2>
   <p>
-    <ul>
-      <li>Hybrid deployment incorporating Ansible Orchestration and </li>
-      <li>Message-driven architecture using RabbitMQ</li>
-      <li>Authenticated services using Kerberos</li>
-      <li>Real-time monitoring via Icinga2 backed with PostgreSQL</li>
-      <li>Lightweight containerised deployment (Singularity) of Notification component</li>
-      <li>Integration of heterogeneous components (Java, Python, Shell, messaging, monitoring)</li>
-    </ul>
+    This system is a self-contained, virtualised reference architecture integrating distributed compute,
+    identity management, messaging, and monitoring into a coherent cluster design.
   </p>
+
+  <p>
+    It was developed to replace an obsolete application stack and to provide a flexible platform for
+    experimentation with distributed systems, authentication, and service orchestration.
+  </p>
+
+  <p>
+    The environment is centred on a virtualised Hadoop cluster, supported by Kerberos-based identity,
+    message-driven components, and a unified monitoring layer. Supporting services are deployed across
+    both physical and virtual infrastructure to reflect real-world separation of concerns.
+  </p>
+
   <h2>Architecture</h2>
   <p>
-    A flexible virtualisation environment was required to replicate advanced High Performance Computing 
-    Architectures, including Identity Management, Application and XMPP messaging, Name and Directory Services.
+    The system is composed of five functional layers:
   </p>
 
-  <p>
-    The system takes advantage of Qemu virtualisation (chosen over KVM for its ability to emulate NIOS2
-    and ARM processors), and Linux network bridging. The system makes very heavy used of QCOW2 snapshotting,
-    a bespoke postgress database to manage configurations, and bespoke python code to run virtualised machines 
-    using stored parameters. 
-  </p>
-
-    <h3>Node Roles</h3>
-    <dl>
-      <dt>cjspc</dt><dd>Serves as a dumb terminal. vncviewer hosts sessions connected to turnip and forge via 
-        key-authenticated SSH sessions.</dd>
-      <dt>turnip</dt><dd>Manages DHCP, Name, Identity, Directory, XMPP and Notification (Icinga2) services.</dd>
-      <dt>stheno|euryale|medusa</dt><dd>Run Zookeeper, Apache-Drill, Cassandra and RabbitMQ clusters.</dd>
-      <dt>deino|enyo|pemphredo</dt><dd>Run Hadoop Nameservices and Yarn Resource Manager Services.</dd>
-      <dt>helen|clytymnestra|hilaeira|phoebe</dt><dd>Run Hadoop datanode and Yarn node services.</dd>
-    </ul>
+  <ul>
+    <li><b>Compute:</b> A virtualised Hadoop cluster providing distributed processing and storage</li>
+    <li><b>Identity:</b> Centralised authentication using Kerberos with directory integration</li>
+    <li><b>Messaging:</b> Asynchronous communication via a brokered messaging layer</li>
+    <li><b>Monitoring:</b> Centralised service and host monitoring</li>
+    <li><b>Virtualisation:</b> Snapshot-based VM lifecycle management on a single host platform</li>
+  </ul>
 
   <h2>Implementation</h2>
   <p>
