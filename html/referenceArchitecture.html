@@ -75,10 +75,36 @@
   </p>
 
   <h2>Key Design Elements</h2>
-  <p>2–3 focused points...</p>
+  <p>This platform serves as a personal reference architecture for distributed systems, enabling 
+     rapid instantiation of clustered services (Hadoop, messaging, monitoring, HA systems, lustre, 
+     kubernetes) within a controlled, reproducible environment.
+  </p>
+  <p>
+    The physical system is oversubscribed&mdash;it does not all run concurrently. Use of disposable
+    snapshots, ansible orchestration, gold reference images yields great flexibility for modelling
+    real-world problems.
+  </p>
+
+  <img src="../referenceArchitecture/topology.jpg">
+
 
   <h2>Observability</h2>
-  <p>Icinga2 focus...</p>
+  <p>
+    Icinga2 was configured with a PostgreSQL database as the back-end storage. It monitors the
+    whole environment in terms of node status and principal resources. Not all services are monitored.
+  </p>
+
+  <p>
+    Icinga2 sends Alert and Warning notifications by calling a configurable shell script to execute
+    some python code that sends the message via rabbitMQ, to a java program that read and formats the 
+    messages for delivery and display by an OpenFire XMPP chat server. The java XMPP client is fully
+    authenticated to XMPP via MIT Kerberos5.
+  </p>
+
+  <p> 
+    The complexity provides the flexibility that is necessary to be able to separate notification and 
+    alerting on the basis of segregated information.
+  </p>
 
   <h2>Outcome</h2>
 
