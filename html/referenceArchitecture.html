@@ -24,7 +24,27 @@
     </ul>
   </p>
   <h2>Architecture</h2>
-  <p>Layered description...</p>
+  <p>
+    A flexible virtualisation environment was required to replicate advanced High Performance Computing 
+    Architectures, including Identity Management, Application and XMPP messaging, Name and Directory Services.
+  </p>
+
+  <p>
+    The system takes advantage of Qemu virtualisation (chosen over KVM for its ability to emulate NIOS2
+    and ARM processors), and Linux network bridging. The system makes very heavy used of QCOW2 snapshotting,
+    a bespoke postgress database to manage configurations, and bespoke python code to run virtualised machines 
+    using stored parameters. 
+  </p>
+
+    <h3>Node Roles</h3>
+    <dl>
+      <dt>cjspc</dt><dd>Serves as a dumb terminal. vncviewer hosts sessions connected to turnip and forge via 
+        key-authenticated SSH sessions.</dd>
+      <dt>turnip</dt><dd>Manages DHCP, Name, Identity, Directory, XMPP and Notification (Icinga2) services.</dd>
+      <dt>stheno|euryale|medusa</dt><dd>Run Zookeeper, Apache-Drill, Cassandra and RabbitMQ clusters.</dd>
+      <dt>deino|enyo|pemphredo</dt><dd>Run Hadoop Nameservices and Yarn Resource Manager Services.</dd>
+      <dt>helen|clytymnestra|hilaeira|phoebe</dt><dd>Run Hadoop datanode and Yarn node services.</dd>
+    </ul>
 
   <h2>Implementation</h2>
   <p>
@@ -92,6 +112,7 @@
   <p>
     Icinga2 was configured with a PostgreSQL database as the back-end storage. It monitors the
     whole environment in terms of node status and principal resources. Not all services are monitored.
+    Real-time reporting is sent to XMPP. 
   </p>
 
   <p>
@@ -105,6 +126,27 @@
     The complexity provides the flexibility that is necessary to be able to separate notification and 
     alerting on the basis of segregated information.
   </p>
+
+  <img src="../referenceArchitecture/icinga0.jpg">
+  <p>Dashboard display</p>
+
+  <img src="../referenceArchitecture/icinga1.jpg">
+  <p>Contacts list - group, or user specific notification can be defined, along with priorities, callout windows, etc.</p>
+
+  <img src="../referenceArchitecture/icinga3.jpg">
+  <p>Monitored Services.</p>
+
+  <img src="../referenceArchitecture/icinga4.jpg">
+  <p>Related Services can be grouped and monitored.</p>
+  
+  <img src="../referenceArchitecture/icinga5.jpg">
+  <p>Monitored hosts</p>
+
+  <img src="../referenceArchitecture/icinga6.jpg">
+  <p>Related Hosts can be grouped and monitored.</p>
+
+  <img src="../referenceArchitecture/xmpp0.jpg">
+  <p>Output from notification infrastructure to an XMPP session.</p>
 
   <h2>Outcome</h2>
 
