@@ -12,7 +12,7 @@
         "site.hopen", "Overview", "site.hclose", "site.br"
     ],
     "projects.luggagebox.overview.1": [
-        "site.popen", "Designed and fabricated a custom rear-mounted luggage system to meet specific load, mounting, and durability constraints not satisfied by commercial solutions.", "site.pclose"
+        "site.popen", "Designed and fabricated a custom rear-mounted luggage system to meet specific requirements for load bearing, engagement on existing mountings, and durability constraints not satisfied by commercial solutions.", "site.pclose"
     ],
     "projects.luggagebox.overview": [
         "projects.luggagebox.overview.title",
@@ -110,12 +110,16 @@
     "projects.luggagebox.demonstrates.3": [
         "site.liopen", "Focus on function over form, with real-world usability", "site.liclose"
     ],
+    "projects.luggagebox.demonstrates.4": [
+        "site.liopen", "Material reuse and practical fabrication techniques", "site.liclose"
+    ],
     "projects.luggagebox.demonstrates": [
         "projects.luggagebox.demonstrates.title",
         "site.ulopen",
         "projects.luggagebox.demonstrates.1",
         "projects.luggagebox.demonstrates.2",
         "projects.luggagebox.demonstrates.3",
+        "projects.luggagebox.demonstrates.4",
         "site.ulclose",
         "site.br"
     ],
