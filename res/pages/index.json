@@ -1,0 +1,16 @@
+{
+  "files": [
+    "/res/pages/homepage.json",
+    "/res/pages/404.json",
+    "/res/pages/site.json",
+    "/res/pages/nav.json",
+    "/res/pages/elements.json",
+    "/res/pages/external.json",
+    "/res/pages/inspirations.json",
+
+    "/res/pages/projects/luggagebox.json",
+    "/res/pages/projects/hydrogel.json",
+    "/res/pages/projects/sickles.json",
+    "/res/pages/projects/hadoopcluster.json"
+  ]
+}

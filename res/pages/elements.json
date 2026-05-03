@@ -1,0 +1,73 @@
+{
+  "site.wopen": [
+    "<p class=\"intro-text\">"
+  ],
+  "site.wclose": [
+    "</p>"
+  ],
+  "site.popen": [
+    "<p class=\"normal-text\">"
+  ],
+  "site.pclose": [
+    "</p>"
+  ],
+  "site.bopen": [
+    "<p class=\"button-text\">"
+  ],
+  "site.bclose": [
+    "</p>"
+  ],
+  "site.hopen": [
+    "<h2 class=\"normal-text\">"
+  ],
+  "site.hclose": [
+    "</h2>"
+  ],
+  "site.br": [
+    "<br />"
+  ],
+  "site.lopen": [
+    "<a href=\"#\">"
+  ],
+  "site.lclose": [
+    "</a>"
+  ],
+  "site.urlopen": [
+    "<a href=\""
+  ],
+  "site.urlclose": [
+    "\" target=\"_blank\" rel=\"noopener noreferrer\">"
+  ],
+  "site.liopen": [
+    "<li class=\"li-normal\">"
+  ],
+  "site.liclose": [
+    "</li>"
+  ],
+  "site.ulopen": [
+    "<ul class=\"text-list-title\">"
+  ],
+  "site.ulclose": [
+    "</ul>"
+  ],
+  "site.iopen": [
+    "[[igrid:"
+  ],
+  "site.iclose": [
+    "]]"
+  ],
+  "site.return": [
+    "site.return.open", "site.return.text", "site.return.close"
+  ],
+  "site.return.open": [
+    "<div class=\"element-return\" onclick=\"loadPage('homepage');\" return false;\">"
+  ],
+  "site.return.text": [
+    "site.bopen", "Return", "site.bclose"
+  ],
+  "site.return.close": [
+    "</div>"
+  ]
+}
+
+

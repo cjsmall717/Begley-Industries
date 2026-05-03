@@ -1,0 +1,17 @@
+{
+    "site.pages.404": [
+    "<center><img src=\"mia.jpg\">",
+    "site.hopen",
+    "<h1 class=\"normal-text\">", "404.title", "</h1>",
+    "site.br",
+    "site.hopen", "404.text", "site.hclose",
+    "site.return",
+    "</center>"
+    ],
+    "404.title": [
+    "404"
+    ],
+    "404.text": [
+    "its borked"
+    ]
+}

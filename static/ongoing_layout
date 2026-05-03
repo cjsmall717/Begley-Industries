@@ -1,0 +1,251 @@
+The correct pattern (and this works very well)
+
+Instead of opus omnia, think:
+1. Selected Works (front page)
+
+    polished
+
+    complete
+
+    narrative-driven
+
+2. Additional Work / Archive / Technical Notes
+
+    still structured
+
+    shorter
+
+    less narrative, more factual
+
+3. (Optional) Lab Notebook / Fragments
+
+    rawer
+
+    exploratory
+
+    clearly labelled as such
+
+Naming matters more than you think
+
+“Opus omnia” sounds clever—but it signals:
+
+    “this may be self-indulgent”
+
+Safer options that still fit your tone:
+
+    “Additional Work” (clean, professional)
+
+    “Technical Archive” (very you, actually)
+
+    “Working Notes” (if you want that lab feel)
+
+    “Supplementary Projects” (safe but dull)
+
+If you want a slight wink without going full Latin:
+
+    “Collected Work (Supplementary)”
+
+The real rule
+
+Everything in the extended section should still answer:
+
+    What does this demonstrate?
+
+Even if briefly.
+
+If a piece doesn’t do that, it’s not portfolio—it’s personal history.
+Where your style actually shines
+
+You’re strongest when you:
+
+    show iteration
+
+    show constraints
+
+    show problem-solving
+
+So your “expanded” section should lean into:
+
+    short build logs
+
+    design fragments
+
+    small but clever solutions
+
+Not long narratives.
+A structure that would suit you perfectly
+
+Selected Works
+  ├── Hydrogel Composites
+  ├── Luggage System
+  ├── Sickles
+  └── Reference Architecture
+
+Additional Work
+  ├── Tooling and Fixtures
+  ├── Experimental Apparatus (Lab)
+  ├── Cluster Variants / Experiments
+  └── Miscellaneous Builds
+
+Notes (optional)
+  ├── Short Technical Write-ups
+  └── Exploratory Work
+
+The key insight
+
+You’re not building a record of everything you’ve done.
+
+You’re building:
+
+    evidence of how you think and work
+
+Selected Works = proof
+Everything else = supporting material
+Bottom line
+
+Yes—build the second layer.
+
+Just don’t let it compete with the first.
+
+If anything:
+
+    the more material you add behind the curtain, the more disciplined the front page needs to stay.
+
+If you want, I can help you sketch the exact HTML structure for this so it drops cleanly into your existing site without turning into a sprawl.
+
+My lathe rebuild is short, textually, longer in terms of gallery, but composed of many small units of work. eg: Tool rest casting, Tool rests, retainer clamp for toolrest (it actually came later, and the lathe was used to make the pattern). Also, my reuse of materials, such as mattress springs, has a place, but it's more....makeshift. Does this have a place, or better to leave it? 
+
+It absolutely has a place—but not where you’re instinctively about to put it.
+
+The mistake would be treating that material as either:
+
+    equal to your main projects, or
+
+    not worth including at all
+
+It’s neither. It’s actually something more interesting:
+
+    evidence of how you operate under constraint
+
+What your lathe rebuild really is
+
+Not just:
+
+    “a rebuild”
+
+    “a collection of small parts”
+
+It’s:
+
+    iterative fabrication
+
+    dependency chaining (lathe → tools → fixtures → better lathe)
+
+    opportunistic material use
+
+    problem-solving without ideal inputs
+
+That’s strong—but it reads poorly if presented as a loose gallery.
+The mattress springs question (this is the important bit)
+
+You’re slightly hesitant because it feels “makeshift.”
+
+Here’s the blunt reality:
+
+    If framed poorly → it looks scrappy
+
+    If framed correctly → it looks resourceful and deliberate
+
+The difference is one sentence of context.
+Where this belongs structurally
+
+Not in Selected Works
+
+Instead:
+→ “Tooling and Fixtures” (or similar)
+
+With subsections like:
+
+    Lathe Rebuild
+
+    Tooling Development
+
+    Fixtures and Workholding
+
+    Material Reuse
+
+How to present it (this is the key)
+
+You don’t want:
+
+    “Here’s a bunch of stuff I made along the way”
+
+You want:
+
+    “This is how capability was built incrementally”
+
+Example of your voice, tightened
+
+Instead of:
+
+    Used mattress springs as material…
+
+You write:
+
+    Mattress springs were repurposed as a readily available high-carbon steel source for small components and experimental tooling. While not ideal, they provided a practical means of progressing work without delay or additional cost.
+
+That flips it from:
+
+    improvisation
+
+to:
+
+    deliberate trade-off
+
+The lathe rebuild page (how it should feel)
+
+Short text. Clear structure. Controlled gallery.
+
+Something like:
+Overview
+
+    Rebuilt and extended a basic lathe using self-fabricated tooling and fixtures. Work proceeded incrementally, with each component enabling the next.
+
+Key Points
+
+    Tooling developed in parallel with machine capability
+
+    Fixtures fabricated as required rather than pre-designed
+
+    Extensive reuse of available materials
+
+    Iterative refinement rather than full upfront design
+
+Sections
+
+    Tool Rest Casting
+
+    Tool Rests
+
+    Retention Clamp
+
+    Early Tooling
+
+    Material Reuse
+
+Each with:
+
+    1–2 lines max
+
+    then images
+
+The rule you should apply
+
+Ask yourself:
+
+    “Does this show how I solve problems?”
+
+If yes → include it
+If no → leave it
+
+Your makeshift work does show that—very clearly.

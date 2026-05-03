@@ -1,0 +1,14 @@
+{
+  "site.url.toolbox": [
+    "https://www.bunnings.com.au/dewalt-toughsystem-2-0-deep-tool-box_p0220699"
+  ],
+  "site.links.toolbox": [
+    "site.urlopen", "site.url.toolbox", "site.urlclose", "toolbox", " ", "site.lclose"
+  ],
+  "site.url.beagle": [
+    "https://surnamedb.com/Surname/beagley"
+  ],
+  "site.links.beagle": [
+    "site.urlopen", "site.url.beagle", "site.urlclose", "O' Beaglaoich", "site.lclose"
+  ]
+}

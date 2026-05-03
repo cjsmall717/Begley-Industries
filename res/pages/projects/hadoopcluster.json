@@ -1,0 +1,241 @@
+{
+    "projects.hadoopcluster.title": [
+        "site.hopen",
+        "projects.hadoopcluster.title.text",
+        "site.hclose",
+        "site.popen",
+        "Designed and implemented a hybrid distributed system combining virtualised compute with physical identity and messaging services. The system integrates authentication, orchestration, monitoring, and message-driven components.",
+        "site.pclose",
+        "site.br"
+    ],
+    "projects.hadoopcluster.title.text": [
+        "Hybrid Virtualised Hadoop Cluster with Identity and Monitoring Integration"
+    ],
+    "projects.hadoopcluster.overview.title":[
+        "site.hopen", "Overview", "site.hclose"
+    ],
+    "projects.hadoopcluster.overview.1":[
+        "site.popen",
+        "This system is a self-contained, virtualised reference architecture integrating distributed compute, identity management, messaging, and monitoring into a coherent cluster design.",
+        "site.pclose"
+    ],
+    "projects.hadoopcluster.overview.2":[
+        "site.popen",
+        "It was developed to replace an obsolete application stack and to provide a flexible platform for experimentation with distributed systems, authentication, and service orchestration.",
+        "site.pclose"
+    ],
+    "projects.hadoopcluster.overview.3":[
+        "site.popen",
+        "The environment is centred on a virtualised Hadoop cluster, supported by Kerberos-based identity, message-driven components, and a unified monitoring layer. Supporting services are deployed across both physical and virtual infrastructure to reflect real-world separation of concerns.",
+        "site.pclose"
+    ],
+    "projects.hadoopcluster.overview":[
+        "projects.hadoopcluster.overview.title",
+        "projects.hadoopcluster.overview.1",
+        "projects.hadoopcluster.overview.2",
+        "projects.hadoopcluster.overview.3",
+        "site.br"
+    ],
+    "projects.hadoopcluster.architecture.title": [
+        "site.hopen", "Architecture", "site.hclose"
+    ],
+    "projects.hadoopcluster.architecture.1": [
+        "site.popen",
+        "The system is composed of five functional layers:",
+        "site.pclose"
+    ],
+    "projects.hadoopcluster.architecture.2": [
+        "site.liopen",
+        "<b>Compute:</b> A virtualised Hadoop cluster providing distributed processing and storage",
+        "site.liclose"
+    ],
+    "projects.hadoopcluster.architecture.3": [
+        "site.liopen",
+        "<b>Identity:</b> Centralised authentication using Kerberos with directory integration",
+        "site.liclose"
+    ],
+    "projects.hadoopcluster.architecture.4": [
+        "site.liopen",
+        "<b>Messaging:</b> Asynchronous communication via a brokered messaging layer",
+        "site.liclose"
+    ],
+    "projects.hadoopcluster.architecture.5": [
+        "site.liopen",
+        "<b>Monitoring:</b> Centralised service and host monitoring",
+        "site.liclose"
+    ],
+    "projects.hadoopcluster.architecture.6": [
+        "site.liopen",
+        "<b>Virtualisation:</b> Snapshot-based VM lifecycle management on a single host platform",
+        "site.liclose"
+    ],
+    "projects.hadoopcluster.architecture": [
+        "projects.hadoopcluster.architecture.title",
+        "projects.hadoopcluster.architecture.1",
+        "site.ulopen",
+        "projects.hadoopcluster.architecture.2",
+        "projects.hadoopcluster.architecture.3",
+        "projects.hadoopcluster.architecture.4",
+        "projects.hadoopcluster.architecture.5",
+        "projects.hadoopcluster.architecture.6",
+        "site.ulclose",
+        "site.br"
+    ],
+
+    "projects.hadoopcluster.implementation.title":[
+        "site.hopen", "Implementation", "site.hclose"
+    ],
+    "projects.hadoopcluster.implementation.1":[
+        "site.popen",
+        "The reference architecture was realised as a hybrid system comprising virtualised compute nodes hosted on a dedicated VM platform, with supporting physical infrastructure providing identity and control services.",
+        "site.pclose"
+    ],
+    "projects.hadoopcluster.implementation.2":[
+        "site.popen",
+        "Compute nodes were organised into functional groups supporting distributed storage, messaging, and processing workloads. Core services were distributed across these nodes to allow evaluation of coordination, failover behaviour, and system interaction under load.",
+        "site.pclose"
+    ],
+    "projects.hadoopcluster.implementation.3":[
+        "site.popen",
+        "A dedicated monitoring node running Icinga2 provided system-wide visibility. Identity and access services were hosted on separate physical systems to maintain a clear trust boundary between authentication and compute layers.",
+        "site.pclose"
+    ],
+    "projects.hadoopcluster.implementation.4":[
+        "site.popen",
+        "Access to the environment was primarily via SSH and VNC, with a lightweight client system used for interaction and control.",
+        "site.pclose"
+    ],
+    "projects.hadoopcluster.implementation.5":[
+        "site.popen",
+        "Cluster description...",
+        "site.pclose"
+    ],
+    "projects.hadoopcluster.implementation":[
+        "projects.hadoopcluster.implementation.title",
+        "projects.hadoopcluster.implementation.1",
+        "projects.hadoopcluster.implementation.2",
+        "projects.hadoopcluster.implementation.3",
+        "projects.hadoopcluster.implementation.4",
+        "projects.hadoopcluster.implementation.5",
+        "site.br"
+    ],
+
+
+    "projects.hadoopcluster.provisioning.title":[
+        "site.hopen", "Provisioning Model", "site.hclose"
+    ],
+    "projects.hadoopcluster.provisioning.1":[
+        "site.popen",
+        "Virtual machines were provisioned from a set of base \"gold\" images, representing known-good system states. These images were extended using layered snapshots to introduce role-specific components (e.g. storage, messaging, compute).",
+        "site.pclose"
+    ],
+    "projects.hadoopcluster.provisioning.2":[
+        "site.popen",
+        "Instances were treated as disposable. New nodes were generated from snapshots rather than modified in place, allowing rapid iteration and rollback without impacting the integrity of the base images.",
+        "site.pclose"
+    ],
+    "projects.hadoopcluster.provisioning.3":[
+        "site.popen",
+        "This approach allowed efficient use of limited hardware by oversubscribing resources while maintaining a consistent and reproducible deployment model.",
+        "site.pclose"
+    ],
+    "projects.hadoopcluster.provisioning.4":[
+        "site.popen",
+        "The model prioritised repeatability and speed of deployment over strict resource isolation.",
+        "site.pclose"
+    ],
+    "projects.hadoopcluster.provisioning":[
+        "projects.hadoopcluster.provisioning.title",
+        "projects.hadoopcluster.provisioning.1",
+        "projects.hadoopcluster.provisioning.2",
+        "projects.hadoopcluster.provisioning.3",
+        "projects.hadoopcluster.provisioning.4",
+        "site.br"
+    ],
+    "projects.hadoopcluster.keydesign.title":[
+        "site.hopen", "Key Design Elements", "site.hclose"
+    ],
+    "projects.hadoopcluster.keydesign.1":[
+        "site.popen",
+        "This platform serves as a personal reference architecture for distributed systems, enabling rapid instantiation of clustered services (Hadoop, messaging, monitoring, HA systems, lustre, kubernetes) within a controlled, reproducible environment.",
+        "site.pclose"
+    ],
+    "projects.hadoopcluster.keydesign.2":[
+        "site.popen",
+        "The physical system is oversubscribed—it does not all run concurrently. Use of disposable snapshots, ansible orchestration, gold reference images yields great flexibility for modelling real-world problems.",
+        "site.pclose"
+    ],
+    "projects.hadoopcluster.keydesign":[
+        "projects.hadoopcluster.keydesign.title",
+        "projects.hadoopcluster.keydesign.1",
+        "projects.hadoopcluster.keydesign.2",
+        "site.br"
+    ],
+    "projects.hadoopcluster.observability.title":[
+        "site.hopen", "Observability", "site.hclose"
+    ],
+    "projects.hadoopcluster.observability.1":[
+        "site.popen",
+        "Icinga2 was configured with a PostgreSQL database as the back-end storage. It monitors the whole environment in terms of node status and principal resources. Not all services are monitored. Real-time reporting is sent to XMPP.",
+        "site.pclose"
+    ],
+    "projects.hadoopcluster.observability.2":[
+        "site.popen",
+        "Icinga2 sends Alert and Warning notifications by calling a configurable shell script to execute some python code that sends the message via rabbitMQ, to a java program that read and formats the messages for delivery and display by an OpenFire XMPP chat server. The java XMPP client is fully authenticated to XMPP via MIT Kerberos5.",
+        "site.pclose"
+    ],
+    "projects.hadoopcluster.observability.3":[
+        "site.popen",
+        "The complexity provides the flexibility that is necessary to be able to separate notification and alerting on the basis of segregated information.",
+        "site.pclose"
+    ],
+    "projects.hadoopcluster.observability":[
+        "projects.hadoopcluster.observability.title",
+        "projects.hadoopcluster.observability.1",
+        "projects.hadoopcluster.observability.2",
+        "projects.hadoopcluster.observability.3",
+        "site.br"
+    ],
+
+    "projects.hadoopcluster.gallery.title": [
+        "site.hopen", "Gallery", "site.hclose"
+    ],
+    "projects.hadoopcluster.gallery.embed.1": [
+        "site.iopen",
+        "hadoopcluster/1",
+        "site.iclose",
+        "site.popen",
+        "Hybrid Virtualised Cluster Architecture",
+        "site.pclose",
+        "site.br"
+    ],
+    "projects.hadoopcluster.gallery.embed": [
+        "site.iopen",
+        "hadoopcluster/2",
+        "site.iclose",
+        "site.br"
+    ],
+    "projects.hadoopcluster.gallery.embed.all": [
+        "site.iopen",
+        "hadoopcluster",
+        "site.iclose",
+        "site.br"
+    ],
+    "projects.hadoopcluster.gallery": [
+        "projects.hadoopcluster.gallery.title",
+        "projects.hadoopcluster.gallery.embed",
+        "site.br"
+    ],
+    "site.pages.hadoopcluster":[
+        "projects.hadoopcluster.title",
+        "projects.hadoopcluster.overview",
+        "projects.hadoopcluster.architecture",
+        "projects.hadoopcluster.gallery.embed.1",
+        "projects.hadoopcluster.implementation",
+        "projects.hadoopcluster.provisioning",
+        "projects.hadoopcluster.keydesign",
+        "projects.hadoopcluster.observability",
+        "projects.hadoopcluster.gallery",
+        "site.return"
+    ]
+}

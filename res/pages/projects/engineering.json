@@ -1,0 +1,29 @@
+{
+    "title": [
+        "Title of the topic"
+    ],
+    "topics": [
+        "Subtopic 1, Subtopic 2"
+    ],
+    "intro01": [
+        "Intro piece 1"
+    ],
+    "intro02": [
+        "Intro piece 2"
+    ],
+    "intro03": [
+        "Intro piece 3"
+    ],
+    "topicname01": [
+        "heres some text for the first topic"
+    ],
+    "topicname02": [
+        "second paragraph for the first topic"
+    ],
+    "anothertopic01": [
+        "heres some text for the second topic"
+    ],
+    "anothertopic02": [
+        "second paragraph topic 2"
+    ]
+}

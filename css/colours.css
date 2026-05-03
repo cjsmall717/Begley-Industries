@@ -1,0 +1,31 @@
+:root {
+    --background-body:#000000;
+    --background-head:#000000;
+    --background-content:#000000;
+    --background-footer:#000000;
+
+    /* text colours */
+    --text-colour:#fdf5e5;
+    --ul-colour:#ccc5c5;
+    --li-colour:#ccc5c5;
+    --text-shadow:0px 0px 4px #f1dee3;
+    --perm-colour:#958f90;
+    --li-link:#ccc5c5;
+
+    /* urls*/
+    --a-normal:#8fa9ba;
+    --a-visited:#8fa9ba;
+    --a-hover:#c7dbe6;
+    --a-active:#ffffff;
+
+    /* button border hover */
+    --button-hover: #8fa9ba;
+    --button-background: #3e4a5f;
+
+    /* viewer/image element colours*/
+    --project-background: #8fa9ba;
+    --project-description: rgba(0, 0, 0, 0.8);
+    --project-close: rgba(0, 0, 0, 0.8);
+    --project-popup: rgba(0, 0, 0, 0.75);
+
+}

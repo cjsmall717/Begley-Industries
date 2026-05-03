@@ -1,0 +1,52 @@
+{
+  "navigate.gardening.garden": [
+    "<li class=\"li-link\" onclick=\"loadPage('garden');\">",
+    "site.lopen",
+    "Gardening Project Entry Text",
+    "site.lclose",
+    "site.liclose"
+  ],
+  "navigate.gardening.greenhouse": [
+    "<li class=\"li-link\" onclick=\"loadPage('greenhouse');\">",
+    "site.lopen",
+    "Greenhouse Project Entry Text",
+    "site.lclose",
+    "site.liclose"
+  ],
+  "navigate.luggagebox": [
+    "<li class=\"li-link\" onclick=\"loadPage('luggagebox');\">",
+    "site.lopen",
+    "Custom Fabricated Luggage System",
+    "site.lclose",
+    "site.liclose"
+  ],
+  "navigate.hydrogel": [
+    "<li class=\"li-link\" onclick=\"loadPage('hydrogel');\">",
+    "site.lopen",
+    "Conducting Polymer—Hydrogel Systems",
+    "site.lclose",
+    "site.liclose"
+  ],
+  "navigate.sickles": [
+    "<li class=\"li-link\" onclick=\"loadPage('sickles');\">",
+    "site.lopen",
+    "Custom Fabricated Sickles",
+    "site.lclose",
+    "site.liclose"
+  ],
+  "navigate.hadoopcluster": [
+    "<li class=\"li-link\" onclick=\"loadPage('hadoopcluster');\">",
+    "site.lopen",
+    "Hybrid Distributed Systems Reference Architecture: Virtualised Hadoop Cluster with Identity and Monitoring",
+    "site.lclose",
+    "site.liclose"
+  ],
+  "navigate.inspirations": [
+    "<a href=\"#\" onclick=\"loadPage('inspirations');\">",
+    "Inspirations",
+    "</a>"
+  ]
+}
+
+
+

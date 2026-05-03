@@ -1,0 +1,285 @@
+{
+    "projects.sickles.title": [
+        "site.hopen",
+        "projects.sickles.title.text",
+        "site.hclose",
+        "site.br"
+    ],
+    "projects.sickles.title.text": [
+        "Hand-Forged Sickles"
+    ],
+    "projects.sickles.overview.title":[
+        "site.hopen", "Overview", "site.hclose"
+    ],
+    "projects.sickles.overview.1":[
+        "site.popen",
+        "Designed and fabricated a series of hand tools from first principles, refining geometry, materials, and construction methods through iterative builds.",
+        "site.pclose"
+    ],
+    "projects.sickles.overview":[
+        "projects.sickles.overview.title",
+        "projects.sickles.overview.1",
+        "site.br"
+    ],
+    "projects.sickles.keypoints.title": [
+        "site.hopen", "Key Points", "site.hclose"
+    ],
+    "projects.sickles.keypoints.1": [
+        "site.liopen",
+        "Forged blades from flat stock using a custom-built gas forge",
+        "site.liclose"
+    ],
+    "projects.sickles.keypoints.2": [
+        "site.liopen",
+        "Developed handle geometry for control and comfort",
+        "site.liclose"
+    ],
+    "projects.sickles.keypoints.3": [
+        "site.liopen",
+        "Fabricated ferrules from salvaged steel pipe and washers",
+        "site.liclose"
+    ],
+    "projects.sickles.keypoints.4": [
+        "site.liopen",
+        "Iteratively improved edge profile, curvature, and finish",
+        "site.liclose"
+    ],
+    "projects.sickles.keypoints": [
+        "projects.sickles.keypoints.title",
+        "site.ulopen",
+        "projects.sickles.keypoints.1",
+        "projects.sickles.keypoints.2",
+        "projects.sickles.keypoints.3",
+        "projects.sickles.keypoints.4",
+        "site.ulclose",
+        "site.br"
+    ],
+    "projects.sickles.outcome.title": [
+        "site.hopen", "Outcome", "site.hclose"
+    ],
+    "projects.sickles.outcome.1": [
+        "site.popen", "Produced functional cutting tools with progressive improvements in ergonomics, edge retention, and overall finish. Each build informed the next.", "site.pclose"
+    ],
+    "projects.sickles.outcome": [
+        "projects.sickles.outcome.title",
+        "projects.sickles.outcome.1",
+        "site.br"
+    ],
+
+    "projects.sickles.gallery.title": [
+        "site.hopen", "Gallery", "site.hclose"
+    ],
+    "projects.sickles.gallery.embed.1": [
+        "site.iopen",
+        "sickles/1",
+        "site.iclose",
+        "site.popen",
+        "Gas forge constructed from repurposed gas cylinder.",
+        "site.br",
+        "Provided sufficient and consistent heat for forming and shaping blades.",
+        "site.br",
+        "Steel being heated for sickle 4, in preparaton for initial shaping of tang, and taper, and then subsequent annealing.",
+        "site.pclose",
+        "site.br"
+    ],
+    "projects.sickles.gallery.embed.2": [
+        "site.iopen",
+        "sickles/2",
+        "site.iclose",
+        "site.popen",
+        "Early blades established basic form but exposed issues with curvature, mass distribution, and edge behaviour.",
+        "site.br",
+        "Further issues were quickly arose as a consequence of ergonomic deficits in the handle.",
+        "site.br",
+        "These limitations were identified through use rather than design alone.",
+        "site.pclose",
+        "site.br"
+    ],
+    "projects.sickles.gallery.embed.3": [
+        "site.iopen",
+        "sickles/3",
+        "site.iclose",
+        "site.popen",
+        "An iterative improvement in both blade geometry and handle ergonomics resulted in a very serviceable tool that performed as required.",
+        "site.pclose",
+        "site.br"
+    ],
+    "projects.sickles.gallery.embed.4": [
+        "site.iopen",
+        "sickles/4",
+        "site.iclose",
+        "site.popen",
+        "Improved blade curvature and edge profile following evaluation of earlier builds.",
+        "site.br",
+        "Handle ergnomics regressed during this iteration.",
+        "site.pclose",
+        "site.br"
+    ],
+    "projects.sickles.gallery.embed.5": [
+        "site.iopen",
+        "sickles/5",
+        "site.iclose",
+        "site.popen",
+        "Surface finishing and polishing introduced to improve cutting performance and corrosion resistance.",
+        "site.pclose",
+        "site.br"
+    ],
+    "projects.sickles.gallery.embed.6": [
+        "site.iopen",
+        "sickles/6",
+        "site.iclose",
+        "site.popen",
+        "Final blade geometry significantly improved. A square has been included for scale.",
+        "site.br",
+        "Stepwise refinement in three recent blades.",
+        "site.pclose",
+        "site.br"
+    ],
+    "projects.sickles.gallery.embed.7": [
+        "site.hopen",
+        "Handle and Ferrule Development",
+        "site.hclose",
+        "site.iopen",
+        "sickles/7",
+        "site.iclose",
+        "site.popen",
+        "Blade roughly shaped and annealed ready for profiling.",
+        "site.pclose",
+        "site.br"
+    ],
+    "projects.sickles.gallery.embed.8": [
+        "site.iopen",
+        "sickles/8",
+        "site.iclose",
+        "site.popen",
+        "Handle, handle with ferrule, and annealed blank for blade.",
+        "site.br",
+        "Handles are pushed onto the tang, whilst it is hot, in order to seat it optimally.",
+        "site.br",
+        "The process is repeated as the blade nears completion.",
+        "site.pclose",
+        "site.br"
+    ],
+    "projects.sickles.gallery.embed.9": [
+        "site.iopen",
+        "sickles/9",
+        "site.iclose",
+        "site.popen",
+        "Completed sickle with refined handle design and proper blade geometry.",
+        "site.pclose",
+        "site.br"
+    ],
+    "projects.sickles.gallery.embed.10": [
+        "site.iopen",
+        "sickles/10",
+        "site.iclose",
+        "site.popen",
+        "Ferrules fabricated from galvanised pipe and washers.",
+        "site.br",
+        "Acid bath, Welded, cleaned, and heat treated.",
+        "site.br",
+        "Heat treatment produced oxide finish (\"blueing\") for corrosion resistance.",
+        "site.pclose",
+        "site.br"
+    ],
+    "projects.sickles.gallery.embed.11": [
+        "site.iopen",
+        "sickles/11",
+        "site.iclose",
+        "site.popen",
+        "Initial shaping of handle, from green ash, on wood lathe.",
+        "site.br",
+        "Refinement of grip profile based on handling.",
+        "site.br",
+        "Ferrule fit onto handle after turning and polishing.",
+        "site.pclose",
+        "site.br"
+    ],
+    "projects.sickles.gallery.embed": [
+        "projects.sickles.gallery.embed.1",
+        "projects.sickles.gallery.embed.2",
+        "projects.sickles.gallery.embed.3",
+        "projects.sickles.gallery.embed.4",
+        "projects.sickles.gallery.embed.5",
+        "projects.sickles.gallery.embed.6",
+        "projects.sickles.gallery.embed.7",
+        "projects.sickles.gallery.embed.8",
+        "projects.sickles.gallery.embed.9",
+        "projects.sickles.gallery.embed.10",
+        "projects.sickles.gallery.embed.11",
+        "site.br"
+    ],
+    "projects.sickles.gallery": [
+        "projects.sickles.gallery.title",
+        "projects.sickles.gallery.embed"
+    ],
+
+    "projects.sickles.discussion.title": [
+        "site.hopen", "Discussion", "site.hclose"
+    ],
+    "projects.sickles.discussion.1": [
+        "site.popen",
+        "Early builds established basic functionality but revealed limitations in blade curvature, edge geometry, and balance. Subsequent iterations focused on refining these aspects through controlled changes to profile and thickness.",
+        "site.pclose"
+    ],
+    "projects.sickles.discussion.2": [
+        "site.popen",
+        "Handle construction evolved alongside blade development. Ferrules were fabricated from readily available materials and heat treated to improve durability. Handle geometry was adjusted to improve grip and control during use.",
+        "site.pclose"
+    ],
+    "projects.sickles.discussion.3": [
+        "site.popen",
+        "The process reflects a practical approach to toolmaking: evaluate performance, identify limitations, and implement targeted improvements in subsequent builds.",
+        "site.pclose"
+    ],
+    "projects.sickles.discussion": [
+        "projects.sickles.discussion.title",
+        "projects.sickles.discussion.1",
+        "projects.sickles.discussion.2",
+        "projects.sickles.discussion.3",
+        "site.br"
+    ],
+    "projects.sickles.demonstrates.title": [
+        "site.hopen", "What this demonstrates", "site.hclose"
+    ],
+    "projects.sickles.demonstrates.1": [
+        "site.liopen",
+        "Iterative design and refinement based on real-world use",
+        "site.liclose"
+    ],
+    "projects.sickles.demonstrates.2": [
+        "site.liopen",
+        "Material reuse and practical fabrication techniques",
+        "site.liclose"
+    ],
+    "projects.sickles.demonstrates.3": [
+        "site.liopen",
+        "Integration of forging, machining, and finishing processes",
+        "site.liclose"
+    ],
+    "projects.sickles.demonstrates.4": [
+        "site.liopen",
+        "Ability to converge on functional, optimised designs",
+        "site.liclose"
+    ],
+    "projects.sickles.demonstrates": [
+        "projects.sickles.demonstrates.title",
+        "site.ulopen",
+        "projects.sickles.demonstrates.1",
+        "projects.sickles.demonstrates.2",
+        "projects.sickles.demonstrates.3",
+        "projects.sickles.demonstrates.4",
+        "site.ulclose",
+        "site.br"
+    ],
+    "site.pages.sickles": [
+        "projects.sickles.title",
+        "projects.sickles.overview",
+        "projects.sickles.keypoints",
+        "projects.sickles.outcome",
+        "projects.sickles.gallery",
+        "projects.sickles.discussion",
+        "projects.sickles.demonstrates",
+        "site.return"
+    ]
+}

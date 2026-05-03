@@ -1,0 +1,93 @@
+/* BEGIN TEXT */
+
+
+.header-text {
+    /* color: #958f90; */
+    color: var(--text-colour);
+    text-shadow: var(--text-shadow);
+    margin:-40px 40px;
+}
+
+.intro-text {
+    /* color: #958f90; */
+    color: var(--text-colour);
+    margin: 12px 0px;
+    position: static;
+    width:100%;
+}
+.normal-text {
+    /* color: #958f90; */
+    color: var(--text-colour);
+    margin: 0 0 8px 0;
+    position: static;
+    width:75%;
+}
+
+.button-text {
+    color: var(--text-colour);
+    text-shadow: 1px 1px 2px black;
+}
+
+.footer-text {
+    /* color: #958f90; */
+    color: var(--text-colour);
+    position: static;
+}
+
+.subtle-text {
+    /* color: #958f90; */
+    color: var(--text-colour);
+    margin: 0 0 8px 0;
+    position: static;
+}
+
+.copy-text {
+    color: var(--text-colour);
+    font-size: 10pt;
+    margin: 0;
+}
+
+.perm-text {
+    color: var(--perm-colour);
+    font-size: 10pt;
+    margin: 0;
+}
+
+.ul-normal {
+    color: var(--ul-colour);
+    margin: 0px 8px;
+    position: static;
+}
+
+.li-normal {
+    color: var(--li-colour);
+    margin: 0px 8px;
+    position: static;
+}
+
+.li-link {
+    color: var(--li-link);
+    margin: 0px 8px;
+    position: static;
+    cursor: pointer;
+    transition: opacity 0.15s ease, transform 0.1s ease;
+}
+
+a {
+    color: var(--a-normal);
+    text-decoration: none;
+}
+
+a:visited {
+    color: var(--a-visited);
+}
+
+a:hover {
+    color: var(--a-hover);
+    text-decoration: underline;
+}
+
+a:active {
+    color: var(--a-active);
+}
+/* END TEXT */

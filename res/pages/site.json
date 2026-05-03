@@ -1,0 +1,40 @@
+{
+  "site.title": [
+    "Beagley Industries"
+  ],
+
+  "site.copyright": [
+    "&copy; 2026 C. Small. All rights reserved."
+  ],
+  "site.beagle": [
+    "site.popen",
+    "Beagley Industries was inspired by a long-lived, small companion.",
+    "site.br",
+    "The surname \"Small\" is an Anglicised form of the Irish, &ldquo;",
+    "site.links.beagle", "&rdquo;. Although my dog is not a beagle, her likeness was used in an early beer label as a family joke. The idea proved too good to discard, and became the basis for the name and logo.",
+    "site.pclose"
+  ],
+
+  "site.who.1": [
+    "site.hopen",
+    "About",
+    "site.hclose",
+    "site.popen",
+    "Systems and platform engineer experienced in high-performance, large-scale environments, with a foundation in biology and chemistry including biosynthetic pathway elucidation and conducting polymer—hydrogel systems.",
+    "site.pclose"
+  ],
+
+  "site.who.2": [
+    "site.popen", "Experience includes 15 years in high-impact operational environments (BHP, ASD), working with large-scale systems under real constraints.", "site.pclose"
+  ],
+
+  "site.who.3": [
+    "site.popen", "I design, build, and troubleshoot complex systems across software, hardware, and experimental domains.", "site.pclose"
+  ],
+  "site.who": [
+    "site.who.1",
+    "site.who.2",
+    "site.who.3",
+    "site.br"
+  ]
+}

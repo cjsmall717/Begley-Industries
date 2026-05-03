@@ -1,0 +1,328 @@
+{
+    "projects.hydrogel.title":[
+        "site.hopen",
+        "projects.hydrogel.title.text",
+        "site.hclose",
+        "site.popen",
+        "Designed and built electrochemical systems for the synthesis and characterisation of conducting polymer—hydrogel composites, including custom electrodes, reference systems, and measurement apparatus.",
+        "site.pclose",
+        "site.br"
+    ],
+    "projects.hydrogel.title.text":[
+        "Conducting Polymer—Hydrogel Composites: Synthesis and Characterisation"
+    ],
+    "projects.hydrogel.overview.title":[
+        "site.hopen", "Overview", "site.hclose"
+    ],
+    "projects.hydrogel.overview.1":[
+        "site.liopen",
+        "Performed cyclic voltammetry, chronoamperometry, and related techniques for material characterisation",
+        "site.liclose"
+    ],
+    "projects.hydrogel.overview.2":[
+        "site.liopen",
+        "Constructed Ag/AgCl reference electrodes and salt bridges using laboratory-grade materials",
+        "site.liclose"
+    ],
+    "projects.hydrogel.overview.3":[
+        "site.liopen",
+        "Fabricated microelectrodes (Pt-in-glass capillary) with polished tips for controlled measurements",
+        "site.liclose"
+    ],
+    "projects.hydrogel.overview.4":[
+        "site.liopen",
+        "Designed and built experimental apparatus to improve reproducibility and reduce setup time through batching",
+        "site.liclose"
+    ],
+    "projects.hydrogel.overview.5":[
+        "site.liopen",
+        "Identified dynamic range limitations in bespoke instrumentation (QCM), informing measurement approach and interpretation",
+        "site.liclose"
+    ],
+    "projects.hydrogel.overview.6":[
+        "site.liopen",
+        "Integrated WH&S considerations into equipment design and experimental workflow",
+        "site.liclose"
+    ],
+    "projects.hydrogel.overview":[
+        "projects.hydrogel.overview.title",
+        "site.ulopen",
+        "projects.hydrogel.overview.1",
+        "projects.hydrogel.overview.2",
+        "projects.hydrogel.overview.3",
+        "projects.hydrogel.overview.4",
+        "projects.hydrogel.overview.5",
+        "projects.hydrogel.overview.6",
+        "site.ulclose",
+        "site.br"
+    ],
+    "projects.hydrogel.measurement.title":[
+        "site.hopen",
+        "Measurement System Development",
+        "site.hclose"
+    ],
+    "projects.hydrogel.measurement.1":[
+        "site.popen",
+        "Electrochemical measurement systems were refined to improve accuracy and reduce artefacts associated with solution resistance and electrode geometry.",
+        "site.pclose"
+    ],
+    "projects.hydrogel.measurement.2":[
+        "site.popen",
+        "Initial configurations used conventional reference and salt bridge arrangements. These were modified to reduce the distance between reference and working electrodes, minimising potential error and improving measurement stability.",
+        "site.pclose"
+    ],
+    "projects.hydrogel.measurement.3":[
+        "site.popen",
+        "A revised cell design incorporated a gold working electrode embedded in PTFE within a confined geometry, with counter and reference elements positioned in close proximity. This provided a controlled electrochemical environment and improved signal consistency.",
+        "site.pclose"
+    ],
+    "projects.hydrogel.measurement.4":[
+        "site.popen",
+        "Alternative electrode materials, including RVC and tantalum, were evaluated to assess stability and electrochemical response under varying conditions.",
+        "site.pclose"
+    ],
+    "projects.hydrogel.measurement":[
+        "projects.hydrogel.measurement.title",
+        "projects.hydrogel.measurement.1",
+        "projects.hydrogel.measurement.2",
+        "projects.hydrogel.measurement.3",
+        "projects.hydrogel.measurement.4",
+        "site.br"
+    ],
+    "projects.hydrogel.techniques.title":[
+        "site.hopen",
+        "Techniques",
+        "site.hclose"
+    ],
+    "projects.hydrogel.techniques.1":[
+        "site.liopen",
+        "Synthesis (electrosynthesis and chemical)",
+        "site.liclose"
+    ],
+    "projects.hydrogel.techniques.2":[
+        "site.liopen",
+        "Cyclic voltammetry (CV)",
+        "site.liclose"
+    ],
+    "projects.hydrogel.techniques.3":[
+        "site.liopen",
+        "Chronoamperometry (CA)",
+        "site.liclose"
+    ],
+    "projects.hydrogel.techniques.4":[
+        "site.liopen",
+        "Chronocoulometry (CC) for electrode area estimation",
+        "site.liclose"
+    ],
+    "projects.hydrogel.techniques.5":[
+        "site.liopen",
+        "Quartz crystal microbalance (QCM)",
+        "site.liclose"
+    ],
+    "projects.hydrogel.techniques":[
+        "projects.hydrogel.techniques.title",
+        "site.ulopen",
+        "projects.hydrogel.techniques.1",
+        "projects.hydrogel.techniques.2",
+        "projects.hydrogel.techniques.3",
+        "projects.hydrogel.techniques.4",
+        "projects.hydrogel.techniques.5",
+        "site.ulclose",
+        "site.br"
+    ],
+    "projects.hydrogel.chronocoulometry.title":[
+        "site.hopen",
+        "Chronocoulometry",
+        "site.hclose"
+    ],
+    "projects.hydrogel.chronocoulometry.1":[
+        "site.popen",
+        "Electrode area estimation was performed using chronocoulometry with ferricyanide, applying standard electrochemical relationships to relate charge transfer to effective surface area.",
+        "site.pclose"
+    ],
+    "projects.hydrogel.chronocoulometry":[
+        "projects.hydrogel.chronocoulometry.title",
+        "projects.hydrogel.chronocoulometry.1",
+        "site.br"
+    ],
+    "projects.hydrogel.qcm.title":[
+        "site.hopen",
+        "QCM and Environmental Control",
+        "site.hclose"
+    ],
+    "projects.hydrogel.qcm.1":[
+        "site.popen",
+        "Quartz crystal microbalance measurements were used to investigate mass and viscoelastic changes in polymer systems.",
+        "site.pclose"
+    ],
+    "projects.hydrogel.qcm.2":[
+        "site.popen",
+        "Limitations in output dynamic range were identified, constraining signal resolution and sensitivity. These observations informed interpretation of results and subsequent measurement approaches.",
+        "site.pclose"
+    ],
+    "projects.hydrogel.qcm.3":[
+        "site.popen",
+        "Hydration and dehydration behaviour was examined through controlled introduction of phosphorus pentoxide within the measurement environment.",
+        "site.pclose"
+    ],
+    "projects.hydrogel.qcm.4":[
+        "site.popen",
+        "This enabled observation of mass changes associated with hydration state under controlled conditions.",
+        "site.pclose"
+    ],
+    "projects.hydrogel.qcm":[
+        "projects.hydrogel.qcm.title",
+        "projects.hydrogel.qcm.1",
+        "projects.hydrogel.qcm.2",
+        "projects.hydrogel.qcm.3",
+        "projects.hydrogel.qcm.4",
+        "site.br"
+    ],
+    "projects.hydrogel.batching.title":[
+        "site.hopen",
+        "Batch Fabrication and Reproducibility",
+        "site.hclose"
+    ],
+    "projects.hydrogel.batching.1":[
+        "site.popen",
+        "A large-format mould was designed and constructed using glass plates and aluminium spacers to enable batch production of polymer gels. This reduced handling of monomeric reagents and improved consistency of sample geometry.",
+        "site.pclose"
+    ],
+    "projects.hydrogel.batching":[
+        "projects.hydrogel.batching.title",
+        "projects.hydrogel.batching.1",
+        "site.br"
+    ],
+    "projects.hydrogel.gallery.title": [
+        "site.hopen", "Gallery", "site.hclose"
+    ],
+    "projects.hydrogel.gallery.embed.1": [
+        "site.iopen",
+        "hydrogel/1",
+        "site.iclose",
+        "site.popen",
+        "A selection of materials that were used as counter-electrodes, or working electrode substrates.",
+        "site.pclose",
+        "site.br"
+    ],
+    "projects.hydrogel.gallery.embed.2": [
+        "site.iopen",
+        "hydrogel/2",
+        "site.iclose",
+        "site.popen",
+        "Polypyrrole polymer grown on gold film on mylar substrate with different dopants. Examples of Polyaniline and Polypyrole—Polyacrylamide composites on gold film, under systematically varying growth conditions.",
+        "site.pclose",
+        "site.br"
+    ],
+    "projects.hydrogel.gallery.embed.3": [
+        "site.iopen",
+        "hydrogel/3",
+        "site.iclose",
+        "site.popen",
+        "Much of the work requred special conditions—Inert atmosphere, exclusion of electrical noise, or containment of toxic fumes. A suitable cotainment system was fashioned from a large milo can. It was painted with an acrylic spray paint to protect the metal from corrosive materials (liquid or gaseous). All of the connections—Electrical, Fluid (connections to reservoirs or peristaltic pump) and Nitrogen purge and return lines were brought through the lid and sealed with a silicon adhesive.",
+        "site.pclose",
+        "site.br"
+    ],
+    "projects.hydrogel.gallery.embed.4": [
+        "site.iopen",
+        "hydrogel/4",
+        "site.iclose",
+        "site.popen",
+        "This series includes two clamp assembles that held mylar supported gold film electrodes in intimate association with polyacryalmide gel (1.0mm thickness). In a direct analogy to the use of `resist' for preparation of printed circuit boards the gold film was masked in order to control the deposition of polymer. The next images exhibit successfully controlled deposition of Conducting Polymer into the hydrogel matrix. The final image portrays the electrochemical cell that was used for much of the thin film based work. The lid is from the containment vessel and is still attached to the cell.",
+        "site.pclose",
+        "site.br"
+    ],
+    "projects.hydrogel.gallery.embed.5": [
+        "site.iopen",
+        "hydrogel/5",
+        "site.iclose",
+        "site.popen",
+        "Another area of interest was membrane-based (selective) transport or purification. This cell was engineered to provide flexibility as well as consistency and featured ports for the connection of peristaltic pumps, various reference electrodes, or stirrers. Materials could be characterised under static, flow or hydrodynamic conditions. The stainless casing served as both (reasonably) inert containment, and counter-electrode.",
+        "site.pclose",
+        "site.br"
+    ],
+    "projects.hydrogel.gallery.embed.6": [
+        "site.iopen",
+        "hydrogel/6",
+        "site.iclose",
+        "site.popen",
+        "Quartz Crystal Nanogravimitry was used to measure changes in mass (it is understood that QCM is also susceptible to changes in the viscoelastic variations) of a polymer deposited on an AT-cut Quartz Crystal. The conventional cells that were used featered a side-flange onto which crystals would be glued prior to use. Scarcity of cells and long curing times for silastic adhesive prompted a search for a more expedient solution. This cell arrangement was adopted after testing. The small investment in time to filter solution through 0.4 micron filters was significantly offset by the gains that were realised in being able to batch-process 20 cells at a time. Instrumentation limitations, including restricted dynamic range in QCM output, were identified and informed subsequent update of the electonics. The second image reflects an experimental approach that was engineered in order to be able to introduce Phosphorous pentoxide as a dessicant, whilst controlling the intra-cellular environment so that rehydration studies could be conducted under controlled conditions.",
+        "site.pclose",
+        "site.br"
+    ],
+    "projects.hydrogel.gallery.embed.7": [
+        "site.iopen",
+        "hydrogel/7",
+        "site.iclose",
+        "site.popen",
+        "MacLab and Electrolab were expensive units and were sought after. Competition for these resources was fierce, at times. The emergence of cheap data acquisition boards prompted the acquisiton of an Intelligent Instrumentation board—a PCI20428W1 PCI board. This status screen is output from a test program that was set up using the Intelligent Instrumentation Designer software to run a cyclic voltammogram—in this case, simple chart-recorder functionality. This solution was used as a stop-gap until a linux driver was written.",
+        "site.pclose",
+        "site.br"
+    ],
+    "projects.hydrogel.gallery.embed.8": [
+        "site.iopen",
+        "hydrogel/8",
+        "site.iclose",
+        "site.popen",
+        "Cyclic Resistometry required low IR drop across the Reference Electrode and Working electrode. Initially, after consultation with a colleague, a Luggin Probe was constructed by our Departmental Workshop, based on my Specifications. Refinement was iterative. By redesigning the cell further, and having the reference electrode horizontally opposed and in close-proximity to a gold working electrode, the IR drop was miimised and, in conjunction with employing Faraday shielding, teh signal to noise was significantly improved.",
+        "site.pclose",
+        "site.br"
+    ],
+    "projects.hydrogel.gallery.embed.9": [
+        "site.iopen",
+        "hydrogel/9",
+        "site.iclose",
+        "site.popen",
+        "Systematic investigations of the effects of pH and salinity on Polyacrylamide and gum-modified co-polymers.",
+        "site.pclose",
+        "site.br"
+    ],
+    "projects.hydrogel.gallery.embed.10": [
+        "site.iopen",
+        "hydrogel/10",
+        "site.iclose",
+        "site.popen",
+        "Exploratory fabrication of 3D conductive hydrogel structures via in situ polymerisation of polyaniline within a polyacrylamide matrix, using carbon-fibre electrodes and custom moulding approaches. This object was produced for a local conference as a tongue-in-cheek hat-tip to the idea of being able to engineer these materials to engineer mechanically stable artifacts",
+        "site.pclose",
+        "site.br"
+    ],
+    "projects.hydrogel.gallery.embed": [
+        "projects.hydrogel.gallery.embed.1",
+        "projects.hydrogel.gallery.embed.2",
+        "projects.hydrogel.gallery.embed.3",
+        "projects.hydrogel.gallery.embed.4",
+        "projects.hydrogel.gallery.embed.5",
+        "projects.hydrogel.gallery.embed.6",
+        "projects.hydrogel.gallery.embed.7",
+        "projects.hydrogel.gallery.embed.8",
+        "projects.hydrogel.gallery.embed.9",
+        "projects.hydrogel.gallery.embed.10"
+    ],
+    "projects.hydrogel.gallery": [
+        "projects.hydrogel.gallery.title",
+        "projects.hydrogel.gallery.embed"
+    ],
+    "projects.hydrogel.conclusion": [
+        "site.popen",
+        "projects.hydrogel.conclusion.1",
+        "site.pclose",
+        "site.br"
+    ],
+    "projects.hydrogel.conclusion.1": [
+        "This body of work reflects a consistent approach to experimental system development: identifying sources of measurement error, refining electrode geometry and materials, and implementing controlled environments to improve reliability and interpretability of electrochemical data."
+    ],
+    "site.pages.hydrogel": [
+        "projects.hydrogel.title",
+        "projects.hydrogel.overview",
+        "projects.hydrogel.measurement",
+        "projects.hydrogel.techniques",
+        "projects.hydrogel.chronocoulometry",
+        "projects.hydrogel.qcm",
+        "projects.hydrogel.batching",
+        "projects.hydrogel.gallery",
+        "projects.hydrogel.conclusion",
+        "site.return"
+  ]
+}
+
+

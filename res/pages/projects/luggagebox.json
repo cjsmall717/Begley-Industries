@@ -1,0 +1,132 @@
+{
+    "luggagebox.title": [
+        "site.hopen", "luggagebox.title.text", "site.hclose", "site.br"
+    ],
+    "luggagebox.title.text": [
+        "Harley Luggage Box and Quick-Release Rack"
+    ],
+    "projects.luggagebox.title": [
+        "site.hopen", "luggagebox.title.text", "site.hclose", "site.br"
+    ],
+    "projects.luggagebox.overview.title": [
+        "site.hopen", "Overview", "site.hclose", "site.br"
+    ],
+    "projects.luggagebox.overview.1": [
+        "site.popen", "Designed and fabricated a custom rear-mounted luggage system to meet specific load, mounting, and durability constraints not satisfied by commercial solutions.", "site.pclose"
+    ],
+    "projects.luggagebox.overview": [
+        "projects.luggagebox.overview.title",
+        "projects.luggagebox.overview.1",
+        "site.br"
+    ],
+    "projects.luggagebox.keypoints.title": [
+        "site.hopen", "Key Points", "site.hclose"
+    ],
+    "projects.luggagebox.keypoints.1": [
+        "site.liopen", "Designed mounting system to integrate with existing frame geometry", "site.liclose"
+    ],
+    "projects.luggagebox.keypoints.2": [
+        "site.liopen", "Fabricated components using available materials", "site.liclose"
+    ],
+    "projects.luggagebox.keypoints.3": [
+        "site.liopen", "Iteratively refined structure for strength and usability", "site.liclose"
+    ],
+    "projects.luggagebox.keypoints.4": [
+        "site.liopen", "Made sensible compromise on quick-release base on a diminishing returns assessment", "site.liclose"
+    ],
+    "projects.luggagebox.keypoints": [
+        "projects.luggagebox.keypoints.title",
+        "site.ulopen",
+        "projects.luggagebox.keypoints.1",
+        "projects.luggagebox.keypoints.2",
+        "projects.luggagebox.keypoints.3",
+        "projects.luggagebox.keypoints.4",
+        "site.ulclose",
+        "site.br"
+    ],
+    "projects.luggagebox.outcome.title": [
+        "site.hopen", "Outcome", "site.hclose"
+    ],
+    "projects.luggagebox.outcome.1": [
+        "site.popen", "Designed and fabricated a custom rear-mounted luggage system to meet specific load, mounting, and durability constraints not satisfied by commercial solutions.", "site.pclose"
+    ],
+    "projects.luggagebox.outcome": [
+        "projects.luggagebox.outcome.title",
+        "projects.luggagebox.outcome.1",
+        "site.br"
+    ],
+    "projects.luggagebox.gallery.title": [
+        "site.hopen", "Gallery", "site.hclose"
+    ],
+    "projects.luggagebox.gallery.embed": [
+        "site.iopen",
+        "luggagebox",
+        "site.iclose",
+        "site.br"
+    ],
+    "projects.luggagebox.gallery": [
+        "projects.luggagebox.gallery.title",
+        "projects.luggagebox.gallery.embed"
+    ],
+
+    "projects.luggagebox.discussion.title": [
+        "site.hopen", "Discussion", "site.hclose"
+    ],
+    "projects.luggagebox.discussion.1": [
+        "site.popen", "I required a rack and luggage container, of some sort, for my Harley. Commercial products were found to be prohibitively expensive or too small. A plastic toolbox was considered because it is cheap, watertight, and large enough for reasonable loads. My existing pillion backrest and integral luggage rack were not suitable to carry such a box. A bespoke solution was required.", "site.pclose"
+    ],
+    "projects.luggagebox.discussion.2": [
+        "site.popen", "The existing rack was disassembled so that it could be reverse-engineered in order to design a new assembly with a proper fit on the mountings. Salvaged, 1/8\" galvanised steel plate was cut to shape with an angle grinder. Additional reinforcing was cut from 1/8\" x 1\" steel strip and welded to the frame.", "site.pclose"
+    ],
+    "projects.luggagebox.discussion.3": [
+        "site.popen", "Quick release cam-locks were replicated as polystyrene patterns and cast, in aluminium, using a lost-foam technique. Fine, clay-laden sand was used to form the mould. The spring-loaded lock mechanism was considered a poor return on investment in time and was not replicated as removal is infrequent and self tapping screws were considered a reasonable trade-off.", "site.pclose"
+    ],
+    "projects.luggagebox.discussion.4": [
+        "site.popen", "A ",
+        "site.links.toolbox",
+        "was fixed to the mounting, using a piece of high density foam from an old camping matress as a vibration dampener. Nylon lock-nuts were carefully tentioned onto 3/16\" retainer screws with metal strips acting to distribute the force across a larger area so that vibration would be dampened, thus avoiding a rigid structure that might undergo mechanical fatigue and fail.", "site.pclose"
+    ],
+    "projects.luggagebox.discussion.5": [
+    "site.popen", "An unfortunate, sticky, and rather malodorous incident involving a four-pack of Monster Energy drink resulted in additional foam being used as a lining to reduce the impact of vibration on luggage items. Final fitout involved longitudinally splitting some PVC tube and fitting it to edges that could potentially contact and damage chrome fittings. Lock screws were installed to stop the cam locks working loose whilst in transit.", "site.pclose"
+    ],
+    "projects.luggagebox.discussion": [
+        "projects.luggagebox.discussion.title",
+        "projects.luggagebox.discussion.1",
+        "projects.luggagebox.discussion.2",
+        "projects.luggagebox.discussion.3",
+        "projects.luggagebox.discussion.4",
+        "projects.luggagebox.discussion.5",
+        "site.br"
+    ],
+    "projects.luggagebox.demonstrates.title": [
+        "site.hopen", "What this demonstrates", "site.hclose"
+    ],
+    "projects.luggagebox.demonstrates.1": [
+        "site.liopen", "Practical fabrication and design under constraint", "site.liclose"
+    ],
+    "projects.luggagebox.demonstrates.2": [
+        "site.liopen", "Ability to iterate toward a robust solution", "site.liclose"
+    ],
+    "projects.luggagebox.demonstrates.3": [
+        "site.liopen", "Focus on function over form, with real-world usability", "site.liclose"
+    ],
+    "projects.luggagebox.demonstrates": [
+        "projects.luggagebox.demonstrates.title",
+        "site.ulopen",
+        "projects.luggagebox.demonstrates.1",
+        "projects.luggagebox.demonstrates.2",
+        "projects.luggagebox.demonstrates.3",
+        "site.ulclose",
+        "site.br"
+    ],
+    "site.pages.luggagebox": [
+        "projects.luggagebox.title",
+        "projects.luggagebox.overview",
+        "projects.luggagebox.keypoints",
+        "projects.luggagebox.outcome",
+        "projects.luggagebox.gallery",
+        "projects.luggagebox.discussion",
+        "projects.luggagebox.demonstrates",
+        "site.return"
+  ]
+}

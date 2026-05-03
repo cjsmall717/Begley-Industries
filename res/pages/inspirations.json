@@ -1,0 +1,145 @@
+{
+    "site.inspirations.personal":[
+        "site.hopen",
+        "Personal Influences",
+        "site.hclose"
+    ],
+    "site.inspirations.1.title":[
+        "site.popen",
+        "Kevin and Judy Small (Parents)",
+        "site.pclose"
+    ],
+    "site.inspirations.1.text":[
+        "site.ulopen",
+        "site.popen",
+        "Taught me useful life skills but most importantly, they taught me to be a decent person.",
+        "site.pclose",
+        "site.ulclose"
+    ],
+    "site.inspirations.1":[
+        "site.inspirations.1.title",
+        "site.inspirations.1.text"
+    ],
+    "site.inspirations.2.title":[
+        "site.popen",
+        "Helen Small (Wife)",
+        "site.pclose"
+    ],
+    "site.inspirations.2.text":[
+        "site.ulopen",
+        "site.popen",
+        "Provides the daily inspiration for me to get my arse into gear to do something productive.",
+        "site.pclose",
+        "site.ulclose"
+    ],
+    "site.inspirations.2":[
+        "site.inspirations.2.title",
+        "site.inspirations.2.text"
+    ],
+    "site.inspirations.intellectual":[
+        "site.hopen",
+        "Intellectual / Technical Influences",
+        "site.hclose"
+    ],
+    "site.inspirations.3.title":[
+        "site.popen",
+        "David Gingery",
+        "site.pclose"
+    ],
+    "site.inspirations.3.text":[
+        "site.ulopen",
+        "site.popen",
+        "Build from first principles",
+        "site.pclose",
+        "site.ulclose"
+    ],
+    "site.inspirations.3":[
+        "site.inspirations.3.title",
+        "site.inspirations.3.text"
+    ],
+    "site.inspirations.4.title":[
+        "site.popen",
+        "Bill Mollison",
+        "site.pclose"
+    ],
+    "site.inspirations.4.text":[
+        "site.ulopen",
+        "site.popen",
+        "Systems thinking in practice",
+        "site.pclose",
+        "site.ulclose"
+    ],
+    "site.inspirations.4":[
+        "site.inspirations.4.title",
+        "site.inspirations.4.text"
+    ],
+    "site.inspirations.5.title":[
+        "site.popen",
+        "Frank Herbert",
+        "site.pclose"
+    ],
+    "site.inspirations.5.text":[
+        "site.ulopen",
+        "site.popen",
+        "Complex systems and consequences",
+        "site.pclose",
+        "site.ulclose"
+    ],
+    "site.inspirations.5":[
+        "site.inspirations.5.title",
+        "site.inspirations.5.text"
+    ],
+    "site.inspirations.6.title":[
+        "site.popen",
+        "Omar Khayyam",
+        "site.pclose"
+    ],
+    "site.inspirations.6.text":[
+        "site.ulopen",
+        "site.popen",
+        "Mathematics, philosophy, uncertainty",
+        "site.pclose",
+        "site.ulclose"
+    ],
+    "site.inspirations.6":[
+        "site.inspirations.6.title",
+        "site.inspirations.6.text"
+    ],
+    "site.inspirations.7.title":[
+        "site.popen",
+        "Edmund J. Sullivan",
+        "site.pclose"
+    ],
+    "site.inspirations.7.text":[
+        "site.ulopen",
+        "site.popen",
+        "Structure and visual clarity",
+        "site.pclose",
+        "site.ulclose"
+    ],
+    "site.inspirations.7":[
+        "site.inspirations.7.title",
+        "site.inspirations.7.text"
+    ],
+    "site.inspirations.others":[
+        "site.popen",
+        "And many others too numerous to list.",
+        "site.pclose",
+        "site.ulclose"
+    ],
+    "site.pages.inspirations":[
+        "site.inspirations.personal",
+        "site.inspirations.1",
+        "site.inspirations.2",
+        "site.br",
+        "site.inspirations.intellectual",
+        "site.inspirations.3",
+        "site.inspirations.4",
+        "site.inspirations.5",
+        "site.inspirations.6",
+        "site.inspirations.7",
+        "site.inspirations.others",
+        "site.br",
+        "site.return"
+    ]
+}

@@ -1,0 +1,44 @@
+{
+  "home.projects.title": [
+    "site.hopen", "Selected Work", "site.hclose"
+  ],
+  "home.luggagebox": [
+    "site.ulopen",
+    "navigate.luggagebox",
+    "site.ulclose"
+  ],
+  "home.hydrogel": [
+    "site.ulopen",
+    "navigate.hydrogel",
+    "site.ulclose"
+  ],
+  "home.sickles": [
+    "site.ulopen",
+    "navigate.sickles",
+    "site.ulclose"
+  ],
+  "home.hadoopcluster": [
+    "site.ulopen",
+    "navigate.hadoopcluster",
+    "site.ulclose"
+  ],
+  "home.inspirations": [
+    "navigate.inspirations",
+    "site.br"
+  ],
+  "site.pages.homepage": [
+    "site.who",
+    "home.projects.title",
+    "home.hydrogel",
+    "home.luggagebox",
+    "home.sickles",
+    "home.hadoopcluster",
+    "site.br",
+    "home.inspirations",
+    "site.br",
+    "site.beagle"
+  ]
+}
+
+
+
