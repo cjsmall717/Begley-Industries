@@ -1,9 +1,9 @@
 // File: /js/build.js
-import { consoleLog }     from 'Beagley-Industries/js/utils.js';
-//import { readJson }     from 'Beagley-Industries/js/readJson.js';
-import { displayIndex }     from 'Beagley-Industries/js/displayIndex.js';
-import { loadStringIndex, str } from "Beagley-Industries/js/stringLoader.js";
-import { headerContent, footerContent }     from 'Beagley-Industries/js/site.js';
+import { consoleLog }     from './js/utils.js';
+//import { readJson }     from './js/readJson.js';
+import { displayIndex }     from './js/displayIndex.js';
+import { loadStringIndex, str } from "./js/stringLoader.js";
+import { headerContent, footerContent }     from './js/site.js';
 //this script sets up the page structure, by injecting elements into the DOM
 const body = document.body;
 
