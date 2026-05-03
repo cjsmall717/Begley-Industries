@@ -48,7 +48,7 @@
         "site.hopen", "Outcome", "site.hclose"
     ],
     "projects.luggagebox.outcome.1": [
-        "site.popen", "A functional, low-cost, durable luggage box was constructed for under $150. The pragmatic decision not to engineer sophisticated, spring-loaded retainers for the cam-locks simplified construction and reduced completion time. The box is readily interchangeable with the standard pillion backrest and rack and easily removable for cleaning, or servicing of the bike.", "site.pclose"
+        "site.popen", "A functional, low-cost, durable luggage box was constructed for under $150. The pragmatic decision not to engineer sophisticated, spring-loaded retainers for the cam-locks simplified construction and reduced completion time. The box is readily interchangeable with the standard pillion backrest and integral rack assembly and is easily removable for cleaning, or servicing of the bike.", "site.pclose"
     ],
     "projects.luggagebox.outcome": [
         "projects.luggagebox.outcome.title",
