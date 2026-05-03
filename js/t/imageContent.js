@@ -1,6 +1,6 @@
 // File: /js/imageContent.js
 
-import { consoleLog } from "./utils.js";
+import { consoleLog } from "../js/utils.js";
 
 let thumbnailPaths = [];
 
