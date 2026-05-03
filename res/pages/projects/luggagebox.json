@@ -48,7 +48,7 @@
         "site.hopen", "Outcome", "site.hclose"
     ],
     "projects.luggagebox.outcome.1": [
-        "site.popen", "Designed and fabricated a custom rear-mounted luggage system to meet specific load, mounting, and durability constraints not satisfied by commercial solutions.", "site.pclose"
+        "site.popen", "A functional, low-cost, durable luggage box was constructed, with the pragmatic choice of lock screws over a more sophisticated, spring-loaded mechanism, for the cam-locks. The box is readily interchangeable with the standard pillion backrest and rack.", "site.pclose"
     ],
     "projects.luggagebox.outcome": [
         "projects.luggagebox.outcome.title",
