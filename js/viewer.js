@@ -27,7 +27,7 @@ async function loadGalleryText(galleryFolder, imageNumber) {
     if (!projectFolder || !number) return "";
 
     if (!galleryCache[projectFolder]) {
-        const res = await fetch(`/res/img/content/projects/${projectFolder}/gallery.json`, {
+        const res = await fetch(`./res/img/content/projects/${projectFolder}/gallery.json`, {
             cache: "no-store"
         });
 

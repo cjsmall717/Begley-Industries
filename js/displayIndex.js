@@ -1,8 +1,8 @@
 // File: js/displayIndex.js
 
-import { loadStringIndex, str, pagestr } from "/js/stringLoader.js";
-import { loadThumbnailPaths, imageGrid } from "/js/imageContent.js";
-import { viewImage } from "/js/viewer.js";
+import { loadStringIndex, str, pagestr } from "../js/stringLoader.js";
+import { loadThumbnailPaths, imageGrid } from "../js/imageContent.js";
+import { viewImage } from "../js/viewer.js";
 
 function renderPageString(key) {
     let html = pagestr(key) ?? "";

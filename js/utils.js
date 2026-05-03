@@ -1,6 +1,6 @@
 // File: /js/utils.js
-import { loadThumbnailPaths } from "/js/imageContent.js";
-import { loadCSS } from "/js/stylesheets.js";
+import { loadThumbnailPaths } from "../js/imageContent.js";
+import { loadCSS } from "../js/stylesheets.js";
 const ENABLE_LOG = true;
 
 export function consoleLog(...args) {
@@ -74,8 +74,8 @@ export async function preloadAssets() {
     await loadCSS("/css/text.css");
     await loadCSS("/css/gallery.css");
     consoleLog("[Initialize Preload Onload]");
-    await loadAssetList('/res/onload.txt', { blocking: true });
+    await loadAssetList('./res/onload.txt', { blocking: true });
     consoleLog("[Initialize Preload Background]");
-    loadAssetList('/res/background.txt', { blocking: false });
+    loadAssetList('./res/background.txt', { blocking: false });
     await loadThumbnailPaths();
 }
