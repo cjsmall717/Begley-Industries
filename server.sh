@@ -1,1 +1,1 @@
-python -m http.server 8000
+python -m http.server --bind 192.168.20.100 8080
