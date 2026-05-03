@@ -1,9 +1,9 @@
 // File: /js/build.js
-import { consoleLog }     from '/js/utils.js';
-//import { readJson }     from '/js/readJson.js';
-import { displayIndex }     from '/js/displayIndex.js';
-import { loadStringIndex, str } from "/js/stringLoader.js";
-import { headerContent, footerContent }     from '/js/site.js';
+import { consoleLog }     from './js/utils.js';
+//import { readJson }     from './js/readJson.js';
+import { displayIndex }     from './js/displayIndex.js';
+import { loadStringIndex, str } from "./js/stringLoader.js";
+import { headerContent, footerContent }     from './js/site.js';
 //this script sets up the page structure, by injecting elements into the DOM
 const body = document.body;
 

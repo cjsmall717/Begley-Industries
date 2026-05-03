@@ -3,7 +3,7 @@
 window.pageStrings = {};
 window.pageRawStrings = {};
 
-export async function loadStringIndex(indexPath = "/res/pages/index.json") {
+export async function loadStringIndex(indexPath = "./res/pages/index.json") {
     const indexRes = await fetch(indexPath, { cache: "no-store" });
 
     if (!indexRes.ok) {
