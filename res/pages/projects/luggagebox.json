@@ -48,7 +48,7 @@
         "site.hopen", "Outcome", "site.hclose"
     ],
     "projects.luggagebox.outcome.1": [
-        "site.popen", "A functional, low-cost, durable luggage box was constructed, with the pragmatic choice of lock screws over a more sophisticated, spring-loaded mechanism, for the cam-locks. The box is readily interchangeable with the standard pillion backrest and rack.", "site.pclose"
+        "site.popen", "A functional, low-cost, durable luggage box was constructed for under $150. The pragmatic decision not to engineer sophisticated, spring-loaded retainers for the cam-locks simplified construction and reduced completion time. The box is readily interchangeable with the standard pillion backrest and rack and easily removable for cleaning, or servicing of the bike.", "site.pclose"
     ],
     "projects.luggagebox.outcome": [
         "projects.luggagebox.outcome.title",
@@ -87,7 +87,7 @@
         "was fixed to the mounting, using a piece of high density foam from an old camping matress as a vibration dampener. Nylon lock-nuts were carefully tentioned onto 3/16\" retainer screws with metal strips acting to distribute the force across a larger area so that vibration would be dampened, thus avoiding a rigid structure that might undergo mechanical fatigue and fail.", "site.pclose"
     ],
     "projects.luggagebox.discussion.5": [
-    "site.popen", "An unfortunate, sticky, and rather malodorous incident involving a four-pack of Monster Energy drink resulted in additional foam being used as a lining to reduce the impact of vibration on luggage items. Final fitout involved longitudinally splitting some PVC tube and fitting it to edges that could potentially contact and damage chrome fittings. Lock screws were installed to stop the cam locks working loose whilst in transit.", "site.pclose"
+    "site.popen", "Additional foam was used as an internal lining to reduce the impact of vibration on luggage items. Final fitout involved longitudinally splitting some PVC tube and fitting it to edges that could potentially contact and damage chrome fittings. Lock screws were installed to stop the cam locks working loose whilst in transit.", "site.pclose"
     ],
     "projects.luggagebox.discussion": [
         "projects.luggagebox.discussion.title",
