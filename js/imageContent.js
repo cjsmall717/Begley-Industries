@@ -1,13 +1,13 @@
 // File: /js/imageContent.js
 
-import { consoleLog } from "./js/utils.js";
+import { consoleLog } from "/js/utils.js";
 
 let thumbnailPaths = [];
 
 export async function loadThumbnailPaths() {
     if (thumbnailPaths.length > 0) return thumbnailPaths;
 
-    const res = await fetch("./res/img/content/thumbnail_paths.txt", {
+    const res = await fetch("/res/img/content/thumbnail_paths.txt", {
         cache: "no-store"
     });
 

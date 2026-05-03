@@ -1,6 +1,6 @@
 // File: /js/utils.js
-import { loadThumbnailPaths } from "./js/imageContent.js";
-import { loadCSS } from "./js/stylesheets.js";
+import { loadThumbnailPaths } from "/js/imageContent.js";
+import { loadCSS } from "/js/stylesheets.js";
 const ENABLE_LOG = true;
 
 export function consoleLog(...args) {

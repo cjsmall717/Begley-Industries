@@ -2,7 +2,7 @@
 
 export function headerContent(){
     return `
-    <div><img class="header-img" src="./res/mia.png" onclick="loadPage('homepage');"><h1 class="header-text">Beagley Industries</h1></div>
+    <div><img class="header-img" src="res/mia.png" onclick="loadPage('homepage');"><h1 class="header-text">Beagley Industries</h1></div>
     `;
 }
 
