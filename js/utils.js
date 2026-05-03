@@ -69,10 +69,10 @@ async function loadAssetList(path, { blocking = true } = {}) {
 }
 
 export async function preloadAssets() {
-    await loadCSS("/css/main.css");
-    await loadCSS("/css/colours.css");
-    await loadCSS("/css/text.css");
-    await loadCSS("/css/gallery.css");
+    await loadCSS("./css/main.css");
+    await loadCSS("./css/colours.css");
+    await loadCSS("./css/text.css");
+    await loadCSS("./css/gallery.css");
     consoleLog("[Initialize Preload Onload]");
     await loadAssetList('./res/onload.txt', { blocking: true });
     consoleLog("[Initialize Preload Background]");
