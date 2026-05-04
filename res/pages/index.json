@@ -11,6 +11,10 @@
     "./res/pages/projects/luggagebox.json",
     "./res/pages/projects/hydrogel.json",
     "./res/pages/projects/sickles.json",
-    "./res/pages/projects/hadoopcluster.json"
+    "./res/pages/projects/hadoopcluster.json",
+
+    "./res/pages/projects/hotstuff.json",
+    "./res/pages/projects/tooling.json",
+    "./res/pages/projects/greenhouse.json"
   ]
 }

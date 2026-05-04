@@ -58,3 +58,13 @@
 ./res/img/content/projects/hadoopcluster/2/icinga6.jpg
 ./res/img/content/projects/hadoopcluster/2/icinga0.jpg
 ./res/img/content/projects/hadoopcluster/2/icinga4.jpg
+./res/img/content/projects/greenhouse/1/supportsAndRoof.jpg
+./res/img/content/projects/greenhouse/1/floorAndWalkway.jpg
+./res/img/content/projects/greenhouse/1/reclaimedGlassForHeatTolerance.jpg
+./res/img/content/projects/greenhouse/1/oldSchoolLinseedPuttyGlazing.jpg
+./res/img/content/projects/greenhouse/1/greenhouseNearComplete.jpg
+./res/img/content/projects/greenhouse/1/viewFromSECorner.jpg
+./res/img/content/projects/greenhouse/1/viewInsideOutNWCorner.jpg
+./res/img/content/projects/greenhouse/1/wallSection.jpg
+./res/img/content/projects/greenhouse/1/stairsAndAnnex.jpg
+./res/img/content/projects/greenhouse/1/annexThemalMass.jpg

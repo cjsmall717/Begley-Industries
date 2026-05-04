@@ -1,0 +1,22 @@
+{
+    "projects.tooling.title":[
+        "site.hopen",
+        "projects.tooling.title.text",
+        "site.hclose",
+        "site.popen",
+        "Cool Tools, Baby!",
+        "site.pclose",
+        "site.br"
+    ],
+    "projects.tooling.title.text":[
+        "Cool Tools, Baby!"
+    ],
+    "projects.tooling.overview.title":[
+        "site.hopen", "Overview", "site.hclose"
+    ],
+    "site.pages.tooling": [
+        "projects.tooling.title",
+        "site.return"
+  ]
+}
+

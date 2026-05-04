@@ -1,0 +1,121 @@
+{
+    "projects.greenhouse.title":[
+        "site.hopen",
+        "projects.greenhouse.title.text",
+        "site.hclose",
+        "site.popen",
+        "Designed and built a greenhouse to extend the growing season under Canberra conditions, where winters are cold and summers are hot and dry. Construction made use of reclaimed materials where practical, with new materials introduced as required.",
+        "site.pclose",
+        "site.br"
+    ],
+    "projects.greenhouse.title.text":[
+        "Greenhouse"
+    ],
+    "projects.greenhouse.overview.title":[
+        "site.hopen", "Overview", "site.hclose"
+    ],
+    "projects.greenhouse.overview.1":[
+        "site.popen",
+        "Constructed a small-scale greenhouse (~3600mm x 1800 mm) with an integrated heating system to support controlled plant growth under constrained environmental conditions.",
+        "site.pclose"
+    ],
+    "projects.greenhouse.overview.2":[
+        "site.popen",
+        "The system combines passive solar gain, thermal mass, moisture retention, and a simple combustion-based heat source to extend growing conditions beyond ambient limits.",
+        "site.pclose"
+    ],
+    "projects.greenhouse.overview":[
+        "projects.greenhouse.overview.title",
+        "projects.greenhouse.overview.1",
+        "projects.greenhouse.overview.2",
+        "site.br"
+    ],
+    "projects.greenhouse.keydesign.title":[
+        "site.hopen", "Key Design Elements", "site.hclose"
+    ],
+    "projects.greenhouse.keydesign.1":[
+        "site.liopen",
+        "Steeply sloping roof to optimise winter light path and water-runoff",
+        "site.liclose"
+    ],
+    "projects.greenhouse.keydesign.2":[
+        "site.liopen",
+        "A sunken walkway serves as both a cold sink, and provides reaonable 'head-space'",
+        "site.liclose"
+    ],
+    "projects.greenhouse.keydesign.3":[
+        "site.liopen",
+        "Rear wall was constructed from 12-ply; lower half packed with plastic-wrapped soil as thermal mass",
+        "site.liclose"
+    ],
+    "projects.greenhouse.keydesign.4":[
+        "site.liopen",
+        "Planter boxes low down towards rear - maximising sun exposure",
+        "site.liclose"
+    ],
+    "projects.greenhouse.keydesign.5":[
+        "site.liopen",
+        "Shelf for smaller pots for starting seedlings",
+        "site.liclose"
+    ],
+    "projects.greenhouse.keydesign.6":[
+        "site.liopen",
+        "Rocket heater with thermal mass after-burner (see dedicated section)",
+        "site.liclose"
+    ],
+    "projects.greenhouse.keydesign":[
+        "site.ulopen",
+        "projects.greenhouse.keydesign.title",
+        "projects.greenhouse.keydesign.1",
+        "projects.greenhouse.keydesign.2",
+        "projects.greenhouse.keydesign.3",
+        "projects.greenhouse.keydesign.4",
+        "projects.greenhouse.keydesign.5",
+        "projects.greenhouse.keydesign.6",
+        "site.ulclose",
+        "site.br"
+    ],
+    "projects.greenhouse.rocketheater.title":[
+        "site.hopen",
+        "Thermal Mass Rocket Heater",
+        "site.hclose"
+    ],
+    "projects.greenhouse.rocketheater.1":[
+        "site.popen",
+        "A simple rocket heater was integrated to provide supplementary heat during cold periods. The system was designed for efficiency and paired with thermal mass to retain heat.",
+        "site.pclose"
+    ],
+    "projects.greenhouse.rocketheater.2":[
+        "site.popen",
+        "Need a link to a project page....",
+        "site.pclose"
+    ],
+    "projects.greenhouse.rocketheater":[
+        "projects.greenhouse.rocketheater.title",
+        "projects.greenhouse.rocketheater.1",
+        "projects.greenhouse.rocketheater.2",
+        "site.br"
+    ],
+    "projects.greenhouse.gallery.title": [
+        "site.hopen", "Gallery", "site.hclose"
+    ],
+    "projects.greenhouse.gallery.embed.1": [
+        "site.iopen",
+        "greenhouse",
+        "site.iclose",
+        "site.br"
+    ],
+    "projects.greenhouse.gallery": [
+        "projects.greenhouse.gallery.title",
+        "projects.greenhouse.gallery.embed.1"
+    ],
+    "site.pages.greenhouse": [
+        "projects.greenhouse.title",
+        "projects.greenhouse.overview",
+        "projects.greenhouse.keydesign",
+        "projects.greenhouse.rocketheater",
+        "projects.greenhouse.gallery",
+        "site.return"
+  ]
+}
+

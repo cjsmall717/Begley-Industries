@@ -1,0 +1,22 @@
+{
+    "projects.hotstuff.title":[
+        "site.hopen",
+        "projects.hotstuff.title.text",
+        "site.hclose",
+        "site.popen",
+        "Hotstuff, Baby!",
+        "site.pclose",
+        "site.br"
+    ],
+    "projects.hotstuff.title.text":[
+        "Hot Stuff"
+    ],
+    "projects.hotstuff.overview.title":[
+        "site.hopen", "Overview", "site.hclose"
+    ],
+    "site.pages.hotstuff": [
+        "projects.hotstuff.title",
+        "site.return"
+  ]
+}
+

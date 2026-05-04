@@ -41,6 +41,27 @@
     "site.lclose",
     "site.liclose"
   ],
+  "navigate.hotstuff": [
+    "<li class=\"li-link\" onclick=\"loadPage('hotstuff');\">",
+    "site.lopen",
+    "Furnace, Forges and Burners",
+    "site.lclose",
+    "site.liclose"
+  ],
+  "navigate.tooling": [
+    "<li class=\"li-link\" onclick=\"loadPage('tooling');\">",
+    "site.lopen",
+    "Tooling and Fixtures",
+    "site.lclose",
+    "site.liclose"
+  ],
+  "navigate.greenhouse": [
+    "<li class=\"li-link\" onclick=\"loadPage('greenhouse');\">",
+    "site.lopen",
+    "Greenhouse",
+    "site.lclose",
+    "site.liclose"
+  ],
   "navigate.inspirations": [
     "<a href=\"#\" onclick=\"loadPage('inspirations');\">",
     "Inspirations",
