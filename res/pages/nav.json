@@ -6,13 +6,6 @@
     "site.lclose",
     "site.liclose"
   ],
-  "navigate.gardening.greenhouse": [
-    "<li class=\"li-link\" onclick=\"loadPage('greenhouse');\">",
-    "site.lopen",
-    "Greenhouse Project Entry Text",
-    "site.lclose",
-    "site.liclose"
-  ],
   "navigate.luggagebox": [
     "<li class=\"li-link\" onclick=\"loadPage('luggagebox');\">",
     "site.lopen",

@@ -68,4 +68,3 @@
 ./res/img/content/./res/img/content/projects/greenhouse/1/stairsAndAnnex.jpg
 ./res/img/content/./res/img/content/projects/greenhouse/1/viewFromSECorner.jpg
 ./res/img/content/./res/img/content/projects/greenhouse/1/wallSection.jpg
-./res/img/content/
