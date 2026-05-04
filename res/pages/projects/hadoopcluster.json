@@ -209,10 +209,22 @@
         "site.pclose",
         "site.br"
     ],
-    "projects.hadoopcluster.gallery.embed": [
+    "projects.hadoopcluster.gallery.embed.2": [
         "site.iopen",
         "hadoopcluster/2",
         "site.iclose",
+        "site.popen",
+        "Icinga2 status screens",
+        "site.pclose",
+        "site.br"
+    ],
+    "projects.hadoopcluster.gallery.embed.3": [
+        "site.iopen",
+        "hadoopcluster/3",
+        "site.iclose",
+        "site.popen",
+        "KRB5 authenticated Pidgin client displaying messages from an authorised MUC served by Openfire.",
+        "site.pclose",
         "site.br"
     ],
     "projects.hadoopcluster.gallery.embed.all": [
@@ -223,7 +235,9 @@
     ],
     "projects.hadoopcluster.gallery": [
         "projects.hadoopcluster.gallery.title",
-        "projects.hadoopcluster.gallery.embed",
+        "projects.hadoopcluster.gallery.embed.2",
+        "site.br",
+        "projects.hadoopcluster.gallery.embed.3",
         "site.br"
     ],
     "site.pages.hadoopcluster":[

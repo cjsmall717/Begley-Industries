@@ -51,7 +51,7 @@
 ./res/img/content/projects/sickles/7/sickle4_1.jpg
 ./res/img/content/projects/sickles/5/sickle3_1.jpg
 ./res/img/content/projects/hadoopcluster/1/1_topology.jpg
-./res/img/content/projects/hadoopcluster/2/xmpp0.jpg
+./res/img/content/projects/hadoopcluster/3/xmpp0.jpg
 ./res/img/content/projects/hadoopcluster/2/icinga3.jpg
 ./res/img/content/projects/hadoopcluster/2/icinga1.jpg
 ./res/img/content/projects/hadoopcluster/2/icinga5.jpg
