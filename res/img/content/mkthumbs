@@ -1,0 +1,44 @@
+#!/bin/bash
+
+#set -x
+
+F_IMG="img_paths.txt"
+F_THM="thumbnail_paths.txt"
+F_BCK="../../background.txt"
+F_ONL="../../onload.txt"
+FILELST="${F_IMG} ${F_THM} ${F_BCK} ${F_ONL}"
+PRJ="projects"
+THM="thumbnails"
+
+for F in ${FILELST}; do
+  [[ -f "${F}" ]] && rm -f ${F}
+done
+
+for IFILE in `find ${PRJ} -name "*.jpg"`; do 
+  TFILE=`echo ${IFILE}|sed -e 's/projects/thumbnails/'`
+  TDIR=`dirname ${TFILE}`
+  [[ ! -d "${TDIR}" ]] && mkdir -p ${TDIR}
+  echo $IFILE":"$TFILE
+  echo "./res/img/content/"${IFILE} >> img_paths.txt
+  echo "./res/img/content/"${TFILE} >> thumbnail_paths.txt
+  w=`ffprobe -v error -select_streams v:0 -show_entries stream=width -of default=noprint_wrappers=1:nokey=1 ${IFILE} `
+  h=`ffprobe -v error -select_streams v:0 -show_entries stream=height -of default=noprint_wrappers=1:nokey=1 ${IFILE} `
+  if (( w <= 80 && h <= 80 )); then
+    scale="scale='if(gt(iw,ih),80,-1)':'if(gt(ih,iw),80,-1)'"
+  else
+    scale="scale='if(gt(iw,ih),160,-1)':'if(gt(ih,iw),160,-1)'"
+  fi
+  [[ ! -f "${TFILE}" ]] && ffmpeg -y -loglevel error -i ${IFILE} -vf ${scale} ${TFILE}
+done
+
+cp img_paths.txt ../../background.txt
+cp thumbnail_paths.txt ../../onload.txt
+
+
+for TFILE in `find ${THM} -name "*.jpg"`; do 
+  IFILE=`echo $TFILE|sed -e 's/thumbnails/projects/'`
+  [[ ! -f "${IFILE}" ]] && rm -f ${TFILE}
+done
+
+find  ${THM} -type d -empty -delete
+
