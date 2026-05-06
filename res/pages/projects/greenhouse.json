@@ -75,6 +75,27 @@
         "site.ulclose",
         "site.br"
     ],
+    "projects.greenhouse.plantboxes.title":[
+        "site.hopen",
+        "Plant Boxes",
+        "site.hclose"
+    ],
+    "projects.greenhouse.plantboxes.1":[
+        "site.popen",
+        "Plant boxes were constructed from various waste materials, where practical. Floating floor underlay is a good lining material and has served well for this purpose, although sun-exposure results in its rapid degradation. A few generations of boxes have been constructed with innovations being introduced at each iteration.",
+        "site.pclose"
+    ],
+    "projects.greenhouse.plantboxes.2":[
+        "site.popen",
+        "The most recent generation of planter has been outin the weather for over two years, now, and does not show significant decay. It is made from hardwood palings, and 2\"x1/4\" angle iron cut and welded into a square 'U' configuration. Screw holes were drilled and tapped to 1/4\" and one screw per paling end was used. The bottom-panel palings are retained by the angle, and without screws." Rebar supports were welded onto the upper corners of the angle iron so that PVC conduit could easily be fixed to provide support for plastic or mesh.,
+        "site.pclose"
+    ],
+    "projects.greenhouse.plantboxes":[
+        "projects.greenhouse.plantboxes.title",
+        "projects.greenhouse.plantboxes.1",
+        "projects.greenhouse.plantboxes.2",
+        "site.br"
+    ],
     "projects.greenhouse.rocketheater.title":[
         "site.hopen",
         "Thermal Mass Rocket Heater",
@@ -85,19 +106,13 @@
         "A simple rocket heater was integrated to provide supplementary heat during cold periods. The system was designed for efficiency and paired with thermal mass to retain heat.",
         "site.pclose"
     ],
-    "projects.greenhouse.rocketheater.2":[
-        "site.popen",
-        "Need a link to a project page....",
-        "site.pclose"
-    ],
     "projects.greenhouse.rocketheater":[
         "projects.greenhouse.rocketheater.title",
         "projects.greenhouse.rocketheater.1",
-        "projects.greenhouse.rocketheater.2",
         "site.br"
     ],
     "projects.greenhouse.gallery.title": [
-        "site.hopen", "Gallery", "site.hclose"
+        "site.hopen", "Greenhouse Gallery", "site.hclose"
     ],
     "projects.greenhouse.gallery.embed.1": [
         "site.iopen",
@@ -109,12 +124,27 @@
         "projects.greenhouse.gallery.title",
         "projects.greenhouse.gallery.embed.1"
     ],
+    "projects.plantboxes.gallery.title": [
+        "site.hopen", "Plant Box Gallery", "site.hclose"
+    ],
+    "projects.plantboxes.gallery.embed.1": [
+        "site.iopen",
+        "plantboxes",
+        "site.iclose",
+        "site.br"
+    ],
+    "projects.plantboxes.gallery": [
+        "projects.plantboxes.gallery.title",
+        "projects.plantboxes.gallery.embed.1"
+    ],
     "site.pages.greenhouse": [
         "projects.greenhouse.title",
         "projects.greenhouse.overview",
         "projects.greenhouse.keydesign",
+        "projects.greenhouse.plantboxes",
         "projects.greenhouse.rocketheater",
         "projects.greenhouse.gallery",
+        "projects.plantboxes.gallery",
         "site.return"
   ]
 }
