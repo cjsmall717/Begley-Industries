@@ -1,0 +1,69 @@
+{
+    "projects.plantboxes.title":[
+        "site.hopen",
+        "projects.plantboxes.title.text",
+        "site.hclose",
+        "site.popen",
+        "Designed and built plantboxes to use in the greenhouse. Construction made use of reclaimed materials where practical, or with new materials introduced as required. Cost efficiency, as always, was a driver, as was the obvious requirement for boxes in which to grow plants.",
+        "site.pclose",
+        "site.br"
+    ],
+    "projects.plantboxes.title.text":[
+        "Plant Boxes"
+    ],
+    "projects.plantboxes.overview.title":[
+        "site.hopen", "Overview", "site.hclose"
+    ],
+    "projects.plantboxes.overview.1":[
+        "site.popen",
+        "Constructed plantboxes using leftover material from the construction of a cabin. Later boxes were constructed from angle-iron and palings. In each case, the boxes were lined with PVC-polyurethane floating floor underlay. More recent boxes have been constructed with all new materials, and feature simplified construction using fewer fasteners. Details of the later boxes are discussed, below.",
+        "site.pclose"
+    ],
+    "projects.plantboxes.overview.2":[
+        "site.popen",
+        "Initial concern over the longevity of the boxes was proven unfounded as the boxes have been out in the weather for three years following demolition of the greenhouse to make way for another construction.",
+        "site.pclose"
+    ],
+    "projects.plantboxes.overview":[
+        "projects.plantboxes.overview.title",
+        "projects.plantboxes.overview.1",
+        "projects.plantboxes.overview.2",
+        "site.br"
+    ],
+    "projects.plantboxes.keydesign.title":[
+        "site.hopen", "Key Design Elements", "site.hclose"
+    ],
+    "projects.plantboxes.keydesign.1":[
+        "site.liopen",
+        "Blah!",
+        "site.liclose"
+    ],
+    "projects.plantboxes.keydesign":[
+        "site.ulopen",
+        "projects.plantboxes.keydesign.title",
+        "projects.plantboxes.keydesign.1",
+        "site.ulclose",
+        "site.br"
+    ],
+    "projects.plantboxes.gallery.title": [
+        "site.hopen", "Plant Box Fuckery", "site.hclose"
+    ],
+    "projects.plantboxes.gallery.embed.1": [
+        "site.iopen",
+        "plantboxes",
+        "site.iclose",
+        "site.br"
+    ],
+    "projects.plantboxes.gallery": [
+        "projects.plantboxes.gallery.title",
+        "projects.plantboxes.gallery.embed.1"
+    ],
+    "site.pages.plantboxes":[
+        "projects.plantboxes.title",
+        "projects.plantboxes.overview",
+        "projects.plantboxes.keydesign",
+        "projects.plantboxes.gallery",
+        "site.return"
+  ]
+}
+

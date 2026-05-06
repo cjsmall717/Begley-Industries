@@ -111,6 +111,19 @@
         "projects.greenhouse.rocketheater.1",
         "site.br"
     ],
+    "projects.rocketheater.gallery.title": [
+        "site.hopen", "Rocket Heater Gallery", "site.hclose"
+    ],
+    "projects.rocketheater.gallery.embed.1": [
+        "site.iopen",
+        "rocketheater",
+        "site.iclose",
+        "site.br"
+    ],
+    "projects.rocketheater.gallery": [
+        "projects.rocketheater.gallery.title",
+        "projects.rocketheater.gallery.embed.1"
+    ],
     "projects.greenhouse.gallery.title": [
         "site.hopen", "Greenhouse Gallery", "site.hclose"
     ],
@@ -141,9 +154,10 @@
         "projects.greenhouse.title",
         "projects.greenhouse.overview",
         "projects.greenhouse.keydesign",
-        "projects.greenhouse.plantboxes",
-        "projects.greenhouse.rocketheater",
         "projects.greenhouse.gallery",
+        "projects.greenhouse.rocketheater",
+        "projects.rocketheater.gallery",
+        "projects.greenhouse.plantboxes",
         "projects.plantboxes.gallery",
         "site.return"
   ]
